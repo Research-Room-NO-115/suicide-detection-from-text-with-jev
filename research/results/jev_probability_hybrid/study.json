@@ -1,0 +1,124 @@
+{
+  "base_model": "jev-latest",
+  "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+  "budget_scope": "Separately authorized 5,000-attempt probability study; prior 100-attempt study is unchanged.",
+  "cohort_locked_at_utc": "2026-10-21T19:05:32.500030+00:00",
+  "cohort_selection": {
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "eligible_test_count": 6067,
+    "full_test_routing_fraction": 0.10789348754909153,
+    "hybrid_rule": "Use Jev only on the selected cohort; retain XGBoost for every other test row, including unqueried interval members.",
+    "interval": {
+      "lower": 0.25,
+      "upper": 0.8,
+      "upper_inclusive": false
+    },
+    "interval_routing_fraction": 0.8241305422778968,
+    "routing_schema_version": 1,
+    "sampling_rule": "Hash-ranked test texts inside the frozen validation interval, without gold-label or correctness filtering.",
+    "sampling_seed": 42,
+    "selected_count": 5000,
+    "selection_sha256": "4a7e81c7fd928dc28f1673f2e6c6af60a9b87c7996cdd1278cf1b2fa3ef2e4a7",
+    "target_size": 5000,
+    "test_labels_used_for_selection": false,
+    "test_population_size": 46342,
+    "unqueried_interval_count": 1067
+  },
+  "cohort_sha256": "dffc79e350ed715a60ab516c6d1856662ea48dfe595b38773479520fd9a2c4b8",
+  "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+  "hybrid_rule": "Use Jev score for successfully queried selected texts; otherwise retain XGBoost score.",
+  "interval": {
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "lower": 0.25,
+    "target_size": 5000,
+    "test_population_size": 46342,
+    "upper": 0.8,
+    "upper_inclusive": false
+  },
+  "interval_selection": {
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "bin_width": 0.05,
+    "candidate_windows": 210,
+    "coverage_buffer": 1.1,
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "diagnostic_min_support": 100,
+    "highest_error_count_bin": {
+      "error_rate": 0.5141388174807198,
+      "errors": 200,
+      "lower": 0.45,
+      "n": 389,
+      "upper": 0.5,
+      "upper_inclusive": false,
+      "wilson_95": [
+        0.46457661125147026,
+        0.5634245066372117
+      ]
+    },
+    "highest_error_rate_bin": {
+      "error_rate": 0.5141388174807198,
+      "errors": 200,
+      "lower": 0.45,
+      "n": 389,
+      "upper": 0.5,
+      "upper_inclusive": false,
+      "wilson_95": [
+        0.46457661125147026,
+        0.5634245066372117
+      ]
+    },
+    "interval": {
+      "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+      "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+      "lower": 0.25,
+      "target_size": 5000,
+      "test_population_size": 46342,
+      "upper": 0.8,
+      "upper_inclusive": false
+    },
+    "interval_convention": "[lower,upper), with probability1 included when upper=1",
+    "minimum_validation_support": 4402,
+    "raw_highest_error_rate_bin": {
+      "error_rate": 0.5141388174807198,
+      "errors": 200,
+      "lower": 0.45,
+      "n": 389,
+      "upper": 0.5,
+      "upper_inclusive": false,
+      "wilson_95": [
+        0.46457661125147026,
+        0.5634245066372117
+      ]
+    },
+    "selected_validation": {
+      "error_rate": 0.3390248919975314,
+      "errors": 1648,
+      "lower": 0.25,
+      "n": 4861,
+      "upper": 0.8,
+      "upper_inclusive": false,
+      "wilson_95": [
+        0.3258492389365786,
+        0.35245476886157523
+      ]
+    },
+    "selection_objective": "Maximize validation error rate, subject to fixed minimum validation support.",
+    "selection_schema_version": 1,
+    "selection_source": "validation_only",
+    "supported_candidate_windows": 99,
+    "target_size": 5000,
+    "test_capacity_policy": "Fail if fewer than target_size test probabilities fall inside the frozen interval; never auto-expand.",
+    "test_population_size": 46342,
+    "tie_breaking": "Narrower grid window, then lower endpoint; exact rational error rates.",
+    "validation_size": 37086
+  },
+  "new_paid_attempt_limit": 5000,
+  "score_threshold": 0.5,
+  "study_kind": "probability_routed_hybrid",
+  "study_schema_version": 1,
+  "target_size": 5000,
+  "test_size": 46342,
+  "training": "No weight fine-tuning; use the existing Jev base-model alias.",
+  "validation_size": 37086
+}
