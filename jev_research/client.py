@@ -27,6 +27,8 @@ ENDPOINT = "https://api.metisai.ir/typesafe/v1/systemone"
 BASE_MODEL = "jev-latest"
 HARD_MAX_ATTEMPTS = 100
 HARD_MAX_SAMPLES = 100
+HYBRID_MAX_ATTEMPTS = 5000
+HYBRID_MAX_SAMPLES = 5000
 QUESTION = {
     "type": "score",
     "instructions": (
@@ -129,6 +131,16 @@ class BudgetedJevClient:
     custom transport in production.
     """
 
+    ATTEMPT_CAP = HARD_MAX_ATTEMPTS
+    SAMPLE_CAP = HARD_MAX_SAMPLES
+
+    def _authorize_cohort(self, cohort: Any) -> dict[str, dict[str, Any]]:
+        return _cohort_records(cohort)
+
+    def _cohort_identity(self) -> Any:
+        # Preserve the original study's fingerprint and its existing ledger.
+        return sorted(self.cohort.values(), key=lambda row: row["sample_id"])
+
     def __init__(
         self,
         ledger_path: str | Path,
@@ -140,13 +152,13 @@ class BudgetedJevClient:
         session: Any = None,
     ) -> None:
         if isinstance(max_attempts, bool) or not isinstance(max_attempts, int):
-            raise ValueError("max_attempts must be an integer between one and 100.")
-        if not 1 <= max_attempts <= HARD_MAX_ATTEMPTS:
-            raise ValueError("max_attempts must be an integer between one and 100.")
+            raise ValueError(f"max_attempts must be an integer between one and {self.ATTEMPT_CAP}.")
+        if not 1 <= max_attempts <= self.ATTEMPT_CAP:
+            raise ValueError(f"max_attempts must be an integer between one and {self.ATTEMPT_CAP}.")
         if len(timeout) != 2 or any(not math.isfinite(v) or v <= 0 for v in timeout):
             raise ValueError("Use positive finite connection and read timeouts.")
-        self.cohort = _cohort_records(cohort)
-        self.cohort_fingerprint = text_sha256(_canonical(sorted(self.cohort.values(), key=lambda r: r["sample_id"])))
+        self.cohort = self._authorize_cohort(cohort)
+        self.cohort_fingerprint = text_sha256(_canonical(self._cohort_identity()))
         self._question_json = _canonical(QUESTION)
         self.instruction_fingerprint = text_sha256(self._question_json)
         self.allowed_models = frozenset(allowed_models)
@@ -245,8 +257,8 @@ class BudgetedJevClient:
                     raise BudgetExhausted("The durable inference-attempt cap is exhausted.")
                 count = connection.execute("SELECT COUNT(DISTINCT sample_id) FROM attempts").fetchone()[0]
                 known = connection.execute("SELECT 1 FROM attempts WHERE sample_id=? LIMIT 1", (sample_id,)).fetchone()
-                if not known and count >= HARD_MAX_SAMPLES:
-                    raise BudgetExhausted("The 100-unique-sample cap is exhausted.")
+                if not known and count >= self.SAMPLE_CAP:
+                    raise BudgetExhausted(f"The {self.SAMPLE_CAP}-unique-sample cap is exhausted.")
                 cursor = connection.execute("""INSERT INTO attempts
                     (request_key,sample_id,text_sha256,model,instruction_sha256,status,started_at)
                     VALUES (?,?,?,?,?,'pending',?)""", (request_key, sample_id, digest, model,
@@ -270,7 +282,7 @@ class BudgetedJevClient:
         sample_id = str(sample_id)
         row = self.cohort.get(sample_id)
         if row is None or not isinstance(text, str):
-            raise CohortMismatch("The sample is not in the authorized error cohort.")
+            raise CohortMismatch("The sample is not in the authorized study cohort.")
         digest = text_sha256(text)
         if digest != row["text_sha256"]:
             raise CohortMismatch("The text does not match the authorized sample checksum.")
@@ -382,3 +394,94 @@ class BudgetedJevClient:
                 "succeeded": counts.get("succeeded", 0), "failed": counts.get("failed", 0),
                 "pending_uncertain": counts.get("pending", 0),
                 "cohort_fingerprint": self.cohort_fingerprint}
+
+
+class ProbabilityHybridJevClient(BudgetedJevClient):
+    """Infer a preselected test-score interval with a separate 5,000-attempt cap.
+
+    Unlike the original error-only study, this routing study accepts correctly
+    and incorrectly classified texts. Authorization depends on the locked
+    probability interval and sample/text checksums, never a gold label. Use a
+    separate ledger for this separately authorized experiment. Intervals are
+    ``[lower, upper)``; an upper bound of 1.0 includes the score 1.0.
+
+    For parallel I/O, create one client per worker with an independent default
+    requests Session, all sharing the same ledger and manifest. A client should
+    be created once per worker, not once per sample. Concurrent reservations
+    remain serialized by SQLite before any provider request.
+    """
+
+    ATTEMPT_CAP = HYBRID_MAX_ATTEMPTS
+    SAMPLE_CAP = HYBRID_MAX_SAMPLES
+
+    def __init__(
+        self,
+        ledger_path: str | Path,
+        cohort: Any,
+        *,
+        interval: tuple[float, float],
+        allowed_models: Iterable[str] = (BASE_MODEL,),
+        max_attempts: int = HYBRID_MAX_ATTEMPTS,
+        timeout: tuple[float, float] = (10.0, 60.0),
+        session: Any = None,
+    ) -> None:
+        if not isinstance(interval, (tuple, list)) or len(interval) != 2:
+            raise CohortMismatch("Provide the locked probability interval as (lower, upper).")
+        if any(isinstance(value, bool) or not isinstance(value, numbers.Real)
+               for value in interval):
+            raise CohortMismatch("Probability interval bounds must be finite numbers.")
+        lower, upper = map(float, interval)
+        if not (math.isfinite(lower) and math.isfinite(upper) and 0 <= lower < upper <= 1):
+            raise CohortMismatch("Probability interval must satisfy 0 <= lower < upper <= 1.")
+        self.interval = (lower, upper)
+        super().__init__(ledger_path, cohort, allowed_models=allowed_models,
+                         max_attempts=max_attempts, timeout=timeout, session=session)
+
+    def _authorize_cohort(self, cohort: Any) -> dict[str, dict[str, Any]]:
+        if hasattr(cohort, "to_dict") and not isinstance(cohort, Mapping):
+            cohort = cohort.to_dict("records")
+        if not isinstance(cohort, Iterable) or isinstance(cohort, (str, bytes, Mapping)):
+            raise CohortMismatch("Provide the locked probability-routed cohort as records or a DataFrame.")
+        records = {}
+        lower, upper = self.interval
+        for row in cohort:
+            if not isinstance(row, Mapping):
+                raise CohortMismatch("Every probability-routed cohort row must be a mapping.")
+            if {"sample_id", "text_sha256", "p_xgb", "source_split"} - row.keys():
+                raise CohortMismatch("Probability-routed rows lack required authorization fields.")
+            sample_id, digest, probability = str(row["sample_id"]), row["text_sha256"], row["p_xgb"]
+            if not sample_id or len(sample_id) > 256:
+                raise CohortMismatch("Invalid sample identifier.")
+            if not isinstance(digest, str) or len(digest) != 64:
+                raise CohortMismatch("Invalid text checksum.")
+            try:
+                int(digest, 16)
+            except ValueError:
+                raise CohortMismatch("Invalid text checksum.") from None
+            if row["source_split"] != "test":
+                raise CohortMismatch("Probability-routed inference requires held-out test samples.")
+            if isinstance(probability, bool) or not isinstance(probability, numbers.Real):
+                raise CohortMismatch("XGBoost routing scores must be finite numbers.")
+            probability = float(probability)
+            if not math.isfinite(probability) or not 0 <= probability <= 1:
+                raise CohortMismatch("XGBoost routing scores must be probabilities in [0,1].")
+            inside = lower <= probability and (probability < upper or (upper == 1.0 and probability == 1.0))
+            if not inside:
+                raise CohortMismatch("The sample score lies outside the locked probability interval.")
+            if sample_id in records:
+                raise CohortMismatch("Duplicate sample identifiers are not allowed.")
+            records[sample_id] = {"sample_id": sample_id, "text_sha256": digest.lower(),
+                                  "p_xgb": probability, "source_split": "test"}
+        if not records or len(records) > self.SAMPLE_CAP:
+            raise CohortMismatch(f"Authorize between one and {self.SAMPLE_CAP} unique probability-routed samples.")
+        if len({row["text_sha256"] for row in records.values()}) != len(records):
+            raise CohortMismatch("Duplicate text checksums are not allowed in the cohort.")
+        return records
+
+    def _cohort_identity(self) -> Any:
+        return {
+            "study_type": "probability_routed_hybrid_v1",
+            "interval": list(self.interval),
+            "upper_inclusive": self.interval[1] == 1.0,
+            "cohort": sorted(self.cohort.values(), key=lambda row: row["sample_id"]),
+        }

@@ -1,10 +1,67 @@
-# Jev on XGBoost suicide-detection errors
+# Jev-assisted suicide detection with XGBoost
 
-This research asks how often Jev corrects suicide cases missed by the original
-Word2Vec + XGBoost model. It reproduces the notebook's **centralized** baseline,
-selects **100 actual XGBoost mistakes**, prepares separate weight-training data,
-and evaluates base Jev on an untouched subset under a **100-attempt inference cap**.
-All code, notebooks, and reports are in English.
+This repository evaluates base Jev with the original centralized Word2Vec +
+XGBoost pipeline in two studies: a **5,000-text probability-routed hybrid** and
+an earlier **100-error study**. The hybrid selects texts by probability alone
+and measures corrections as well as newly introduced errors. All code,
+notebooks, and reports are in English.
+
+## Probability-routed hybrid study (5,000 texts)
+
+The new [executed probability-hybrid notebook](assets/notebooks/jev_probability_hybrid_5000.ipynb)
+first measures XGBoost errors by probability bin on validation data, then routes
+5,000 score-eligible test texts to base Jev. Selection includes XGBoost-correct
+cases and counts both corrections and regressions. The
+[full protocol](research/probability_hybrid_protocol.md) documents the fixed range
+selection, sampling, failure fallback, and paired comparison.
+
+The empirically worst narrow validation bin is **[0.45, 0.50)**: 200/389 errors
+(**51.41%**). It supplies only 463 test texts. A validation-only search for a
+high-error interval with enough support freezes **[0.25, 0.80)**: 1,648/4,861
+validation errors (**33.90%**) and 6,067 eligible test texts. Deterministic,
+label-blind hashing selects 5,000; the remaining 1,067 stay with XGBoost.
+
+Measured results (all 5,000 attempts completed; 4,996 Jev responses and four
+HTTP 503 fallbacks):
+
+| Evaluation population | XGBoost accuracy | Hybrid accuracy | Change |
+| --- | ---: | ---: | ---: |
+| Selected 5,000 critical-range texts | 63.74% | 78.38% | +14.64 percentage points |
+| Full 46,342-test partial-routing policy | 91.97% | 93.55% | +1.58 percentage points |
+
+Jev corrected **1,339** XGBoost errors and introduced **607**, for **732 net
+additional correct predictions**. The main gain is fewer false alarms: **801
+corrected versus 96 newly introduced**, a net reduction of 705. For suicide
+misses, **538 corrected cases were offset by 511 new misses**, so full-test
+misses fell only from **1,835 to 1,808**. Full-test recall rose from 92.09% to 92.21%,
+while full-test ROC-AUC slightly decreased from 0.975169 to 0.974644. The hybrid
+therefore does not improve every metric. Log loss worsened from 0.63758 to
+0.67254 on the selected texts and from 0.20199 to 0.20577 on the full test set.
+These are exploratory reused-test results; the report separates recovery from net sensitivity gains.
+
+Compare XGBoost and the hybrid on the same selected 5,000 texts, then on all
+46,342 test cases under this budget-limited partial-routing policy. Missing or
+failed Jev results fall back to XGBoost and remain in every denominator.
+The [hybrid results](research/results/jev_probability_hybrid/hybrid_report.md)
+include precision, recall, F1, AUC, confusion counts, corrections, new errors,
+net change, and exact paired significance. This is base-model inference, not
+weight fine-tuning. Default notebook Run All makes no paid requests.
+
+```bash
+jev-research prepare-hybrid --csv /path/to/Suicide_Detection.csv
+# Explicit paid execution; use secure METIS_API_KEY and preserve the ledger.
+jev-research evaluate-hybrid --authorized-attempts 5000 --workers 4
+jev-research report-hybrid
+```
+
+This experiment has its own explicitly authorized **5,000-attempt** cap and
+private `artifacts/jev_probability_hybrid/budget.sqlite3`. The original
+100-attempt error-study cap and ledger are unchanged. Successful exact requests
+are cached; failed/uncertain requests count and are never automatically retried.
+Do not reset either ledger. The new class is `ProbabilityHybridJevClient`;
+`BudgetedJevClient` retains its original 100-attempt, error-only safeguards.
+
+## Original 100-error study
 
 In the recorded run, **base Jev recovered 11/20 missed suicide cases (55%; 95%
 Wilson CI 34.2%–74.2%)** and corrected **15/20 false alarms (75%)**. That is 26/40
@@ -15,8 +72,6 @@ remain under the study cap. The full XGBoost test accuracy was 91.97%.
 API supports inference, but no supported provider training API, training access,
 or approved training-fee cap was available. Prepared training files are not a
 fine-tuned model. See [training status](research/results/jev_error_study/training_status.json).
-
-## Recorded study
 
 Open [the executed research notebook](assets/notebooks/jev_xgboost_error_rescue.ipynb)
 or [the measured results](research/results/jev_error_study/report.md). Its default
@@ -77,7 +132,7 @@ Use `--artifacts PATH` and `--results PATH` **before** the subcommand to select
 paths explicitly. The default private directory is `artifacts/jev_study`; the
 public directory is `research/results/jev_error_study`.
 
-## Study design
+## Original error-study design
 
 The original raw stratified split is 64% XGBoost training, 16% validation, and 20%
 test, seed 42. Cleaning and deduplication preserve train → validation → test
@@ -117,7 +172,7 @@ cases as exploratory; it is not a fresh confirmatory test. `jev-latest` is also 
 mutable provider alias with no recorded immutable backend revision. Later backend
 changes could confound a comparison performed at a different time.
 
-## Cost and credential controls
+## Original error-study cost and credential controls
 
 A durable SQLite ledger reserves every attempt **before** network I/O. One study
 is capped at 100 paid inference attempts and 100 unique authorized samples.

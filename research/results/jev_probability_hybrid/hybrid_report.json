@@ -1,0 +1,397 @@
+{
+  "analysis_population": "probability_selected_test_cases_including_correct_and_incorrect_xgboost_predictions",
+  "coverage_status": "partial_jev_coverage_with_xgboost_fallback",
+  "full_test_partial_policy": {
+    "error_recovery": {
+      "all_xgboost_errors": {
+        "corrected": 1339,
+        "n": 3722,
+        "rate": 0.35975282106394413,
+        "wilson_95": [
+          0.34448641517148415,
+          0.3753084253930825
+        ]
+      },
+      "false_negative": {
+        "corrected": 538,
+        "n": 1835,
+        "rate": 0.29318801089918256,
+        "wilson_95": [
+          0.27280897479887145,
+          0.3144311342604652
+        ]
+      },
+      "false_positive": {
+        "corrected": 801,
+        "n": 1887,
+        "rate": 0.424483306836248,
+        "wilson_95": [
+          0.4023580144270865,
+          0.44691544069497724
+        ]
+      },
+      "regression_among_xgboost_correct": {
+        "corrected": 607,
+        "n": 42620,
+        "rate": 0.014242139840450493,
+        "wilson_95": [
+          0.013160217170350942,
+          0.015411620025441526
+        ]
+      }
+    },
+    "hybrid": {
+      "accuracy": 0.9354796944456433,
+      "accuracy_wilson_95": [
+        0.9332066058490247,
+        0.9376805919994065
+      ],
+      "average_precision": 0.9737089534099155,
+      "balanced_accuracy": 0.9354947707470274,
+      "brier_score": 0.05280208843219307,
+      "confusion": {
+        "fn": 1808,
+        "fp": 1182,
+        "tn": 21963,
+        "tp": 21389
+      },
+      "correct": 43352,
+      "f1_macro": 0.9354697943979258,
+      "f1_positive": 0.9346705121482258,
+      "log_loss": 0.205765985112567,
+      "n": 46342,
+      "negative_n": 23145,
+      "positive_n": 23197,
+      "precision_positive": 0.9476319170617163,
+      "recall_positive": 0.9220588869250335,
+      "roc_auc": 0.974643929390494,
+      "specificity": 0.9489306545690214
+    },
+    "n": 46342,
+    "paired": {
+      "accuracy_change": 0.015795606577187,
+      "both_correct": 42013,
+      "both_incorrect": 2383,
+      "corrected_false_negatives": 538,
+      "corrected_false_positives": 801,
+      "corrected_xgboost_errors": 1339,
+      "exact_mcnemar_pvalue": 3.6780092911478236e-63,
+      "hybrid_only_correct": 1339,
+      "introduced_errors": 607,
+      "introduced_false_negatives": 511,
+      "introduced_false_positives": 96,
+      "n": 46342,
+      "net_additional_correct": 732,
+      "net_false_negative_reduction": 27,
+      "net_false_positive_reduction": 705,
+      "xgboost_only_correct": 607
+    },
+    "xgboost": {
+      "accuracy": 0.9196840878684562,
+      "accuracy_wilson_95": [
+        0.9171746973490509,
+        0.9221239058397968
+      ],
+      "average_precision": 0.9744486284440766,
+      "balanced_accuracy": 0.9196827276506329,
+      "brier_score": 0.059085754559573184,
+      "confusion": {
+        "fn": 1835,
+        "fp": 1887,
+        "tn": 21258,
+        "tp": 21362
+      },
+      "correct": 42620,
+      "f1_macro": 0.9196836833662302,
+      "f1_positive": 0.9198639280024115,
+      "log_loss": 0.20199407994358312,
+      "n": 46342,
+      "negative_n": 23145,
+      "positive_n": 23197,
+      "precision_positive": 0.9188352187190847,
+      "recall_positive": 0.9208949433116351,
+      "roc_auc": 0.9751687763872223,
+      "specificity": 0.9184705119896306
+    }
+  },
+  "limitations": [
+    "The selected subset contains probability-eligible cases, not gold-label-selected errors. Corrections and newly introduced errors are both counted.",
+    "The full-test result applies only to partial routing of the exact selected manifest; it does not route every case in the critical interval unless the manifest includes them all.",
+    "Failed, pending, and unattempted selected requests fall back to XGBoost and remain in every operational denominator.",
+    "The original notebook and earlier study inspected the test split; this reused-test comparison is exploratory. Interval selection and all policy choices must use validation data only.",
+    "Hybrid ROC-AUC, AP, Brier score, and log loss use piecewise XGBoost/Jev scores. Those scores are not jointly calibrated, so these metrics describe this policy rather than calibrated clinical probabilities.",
+    "jev-latest is a mutable provider alias without a recorded immutable backend revision; later backend changes can affect reproducibility.",
+    "Social-media labels do not establish clinical validity or deployment performance. Confidence intervals are conditional on this selected evaluation population."
+  ],
+  "metadata": {
+    "base_model": "jev-latest",
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "budget_scope": "Separately authorized 5,000-attempt probability study; prior 100-attempt study is unchanged.",
+    "cohort_locked_at_utc": "2026-10-21T19:05:32.500030+00:00",
+    "cohort_selection": {
+      "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+      "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+      "eligible_test_count": 6067,
+      "full_test_routing_fraction": 0.10789348754909153,
+      "hybrid_rule": "Use Jev only on the selected cohort; retain XGBoost for every other test row, including unqueried interval members.",
+      "interval": {
+        "lower": 0.25,
+        "upper": 0.8,
+        "upper_inclusive": false
+      },
+      "interval_routing_fraction": 0.8241305422778968,
+      "routing_schema_version": 1,
+      "sampling_rule": "Hash-ranked test texts inside the frozen validation interval, without gold-label or correctness filtering.",
+      "sampling_seed": 42,
+      "selected_count": 5000,
+      "selection_sha256": "4a7e81c7fd928dc28f1673f2e6c6af60a9b87c7996cdd1278cf1b2fa3ef2e4a7",
+      "target_size": 5000,
+      "test_labels_used_for_selection": false,
+      "test_population_size": 46342,
+      "unqueried_interval_count": 1067
+    },
+    "cohort_sha256": "dffc79e350ed715a60ab516c6d1856662ea48dfe595b38773479520fd9a2c4b8",
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "execution_window_utc": {
+      "first_attempt": "2026-10-21T19:07:43.985618+00:00",
+      "last_finished": "2026-10-21T19:29:07.961259+00:00"
+    },
+    "hybrid_rule": "Use Jev score for successfully queried selected texts; otherwise retain XGBoost score.",
+    "inference_budget": {
+      "attempts_spent": 5000,
+      "authorized_samples": 5000,
+      "cohort_fingerprint": "3186662d84a3c3886bbd7855303ab17e02d8d660a91775702fb77156367113d3",
+      "failed": 4,
+      "max_attempts": 5000,
+      "pending_uncertain": 0,
+      "remaining_attempts": 0,
+      "succeeded": 4996,
+      "unique_samples_attempted": 5000
+    },
+    "interval": {
+      "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+      "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+      "lower": 0.25,
+      "target_size": 5000,
+      "test_population_size": 46342,
+      "upper": 0.8,
+      "upper_inclusive": false
+    },
+    "interval_selection": {
+      "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+      "bin_width": 0.05,
+      "candidate_windows": 210,
+      "coverage_buffer": 1.1,
+      "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+      "diagnostic_min_support": 100,
+      "highest_error_count_bin": {
+        "error_rate": 0.5141388174807198,
+        "errors": 200,
+        "lower": 0.45,
+        "n": 389,
+        "upper": 0.5,
+        "upper_inclusive": false,
+        "wilson_95": [
+          0.46457661125147026,
+          0.5634245066372117
+        ]
+      },
+      "highest_error_rate_bin": {
+        "error_rate": 0.5141388174807198,
+        "errors": 200,
+        "lower": 0.45,
+        "n": 389,
+        "upper": 0.5,
+        "upper_inclusive": false,
+        "wilson_95": [
+          0.46457661125147026,
+          0.5634245066372117
+        ]
+      },
+      "interval": {
+        "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+        "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+        "lower": 0.25,
+        "target_size": 5000,
+        "test_population_size": 46342,
+        "upper": 0.8,
+        "upper_inclusive": false
+      },
+      "interval_convention": "[lower,upper), with probability1 included when upper=1",
+      "minimum_validation_support": 4402,
+      "raw_highest_error_rate_bin": {
+        "error_rate": 0.5141388174807198,
+        "errors": 200,
+        "lower": 0.45,
+        "n": 389,
+        "upper": 0.5,
+        "upper_inclusive": false,
+        "wilson_95": [
+          0.46457661125147026,
+          0.5634245066372117
+        ]
+      },
+      "selected_validation": {
+        "error_rate": 0.3390248919975314,
+        "errors": 1648,
+        "lower": 0.25,
+        "n": 4861,
+        "upper": 0.8,
+        "upper_inclusive": false,
+        "wilson_95": [
+          0.3258492389365786,
+          0.35245476886157523
+        ]
+      },
+      "selection_objective": "Maximize validation error rate, subject to fixed minimum validation support.",
+      "selection_schema_version": 1,
+      "selection_source": "validation_only",
+      "supported_candidate_windows": 99,
+      "target_size": 5000,
+      "test_capacity_policy": "Fail if fewer than target_size test probabilities fall inside the frozen interval; never auto-expand.",
+      "test_population_size": 46342,
+      "tie_breaking": "Narrower grid window, then lower endpoint; exact rational error rates.",
+      "validation_size": 37086
+    },
+    "new_paid_attempt_limit": 5000,
+    "score_threshold": 0.5,
+    "study_kind": "probability_routed_hybrid",
+    "study_schema_version": 1,
+    "target_size": 5000,
+    "test_size": 46342,
+    "training": "No weight fine-tuning; use the existing Jev base-model alias.",
+    "validation_size": 37086
+  },
+  "primary_population": "selected_subset",
+  "routing": {
+    "full_test_n": 46342,
+    "jev_success_n": 4996,
+    "outcome_status_counts": {
+      "failed": 4,
+      "not_attempted": 0,
+      "pending": 0,
+      "succeeded": 4996
+    },
+    "policy": "For the exact selected manifest, use a successful Jev score; otherwise retain XGBoost. All unselected test rows retain XGBoost.",
+    "selected_fraction_of_full_test": 0.10789348754909153,
+    "selected_n": 5000,
+    "successful_fraction_of_full_test": 0.10780717275905226,
+    "unrouted_full_test_n": 41342,
+    "xgboost_fallback_selected_n": 4
+  },
+  "schema_version": 1,
+  "selected_subset": {
+    "error_recovery": {
+      "all_xgboost_errors": {
+        "corrected": 1339,
+        "n": 1813,
+        "rate": 0.7385548814120243,
+        "wilson_95": [
+          0.7178386199197191,
+          0.7582623606036276
+        ]
+      },
+      "false_negative": {
+        "corrected": 538,
+        "n": 860,
+        "rate": 0.6255813953488372,
+        "wilson_95": [
+          0.5927441920048533,
+          0.6573016905982814
+        ]
+      },
+      "false_positive": {
+        "corrected": 801,
+        "n": 953,
+        "rate": 0.8405036726128017,
+        "wilson_95": [
+          0.8158971881857202,
+          0.8623760973383954
+        ]
+      },
+      "regression_among_xgboost_correct": {
+        "corrected": 607,
+        "n": 3187,
+        "rate": 0.19046124882334484,
+        "wilson_95": [
+          0.17720440040208257,
+          0.2044634055787251
+        ]
+      }
+    },
+    "hybrid": {
+      "accuracy": 0.7838,
+      "accuracy_wilson_95": [
+        0.7721742180793784,
+        0.7949900342966073
+      ],
+      "average_precision": 0.8893519081991389,
+      "balanced_accuracy": 0.7925860821244748,
+      "brier_score": 0.16499692362658316,
+      "confusion": {
+        "fn": 833,
+        "fp": 248,
+        "tn": 2029,
+        "tp": 1890
+      },
+      "correct": 3919,
+      "f1_macro": 0.7836327827598282,
+      "f1_positive": 0.7776177741205513,
+      "log_loss": 0.6725426214449942,
+      "n": 5000,
+      "negative_n": 2277,
+      "positive_n": 2723,
+      "precision_positive": 0.8840037418147801,
+      "recall_positive": 0.6940874035989717,
+      "roc_auc": 0.8894431388563501,
+      "specificity": 0.891084760649978
+    },
+    "n": 5000,
+    "paired": {
+      "accuracy_change": 0.1464,
+      "both_correct": 2580,
+      "both_incorrect": 474,
+      "corrected_false_negatives": 538,
+      "corrected_false_positives": 801,
+      "corrected_xgboost_errors": 1339,
+      "exact_mcnemar_pvalue": 3.6780092911478236e-63,
+      "hybrid_only_correct": 1339,
+      "introduced_errors": 607,
+      "introduced_false_negatives": 511,
+      "introduced_false_positives": 96,
+      "n": 5000,
+      "net_additional_correct": 732,
+      "net_false_negative_reduction": 27,
+      "net_false_positive_reduction": 705,
+      "xgboost_only_correct": 607
+    },
+    "xgboost": {
+      "accuracy": 0.6374,
+      "accuracy_wilson_95": [
+        0.623973731289612,
+        0.6506153042158863
+      ],
+      "average_precision": 0.7095758320240054,
+      "balanced_accuracy": 0.6328193557991255,
+      "brier_score": 0.2232364547615931,
+      "confusion": {
+        "fn": 860,
+        "fp": 953,
+        "tn": 1324,
+        "tp": 1863
+      },
+      "correct": 3187,
+      "f1_macro": 0.6331367407625228,
+      "f1_positive": 0.6726846001083228,
+      "log_loss": 0.6375830955767844,
+      "n": 5000,
+      "negative_n": 2277,
+      "positive_n": 2723,
+      "precision_positive": 0.6615767045454546,
+      "recall_positive": 0.6841718692618436,
+      "roc_auc": 0.6841716273369342,
+      "specificity": 0.5814668423364076
+    }
+  },
+  "threshold": 0.5
+}

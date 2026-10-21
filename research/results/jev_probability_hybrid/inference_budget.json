@@ -1,0 +1,11 @@
+{
+  "attempts_spent": 5000,
+  "authorized_samples": 5000,
+  "cohort_fingerprint": "3186662d84a3c3886bbd7855303ab17e02d8d660a91775702fb77156367113d3",
+  "failed": 4,
+  "max_attempts": 5000,
+  "pending_uncertain": 0,
+  "remaining_attempts": 0,
+  "succeeded": 4996,
+  "unique_samples_attempted": 5000
+}

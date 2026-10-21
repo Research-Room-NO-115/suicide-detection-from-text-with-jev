@@ -1,0 +1,80 @@
+{
+  "authorized_new_attempts": 5000,
+  "attempts_spent": 5000,
+  "distinct_texts_attempted": 5000,
+  "provider_http503_failures": 4,
+  "automatic_retries": 0,
+  "failed_requests_resent": 0,
+  "fallback_rule": "Retain XGBoost on each failed request; keep all 5,000 cases in both comparison denominators.",
+  "phases": [
+    {
+      "phase": 1,
+      "workers": 4,
+      "attempts": 1001,
+      "first_attempt_id": 1,
+      "last_attempt_id": 1001,
+      "first_started_utc": "2026-10-21T19:07:43.985618+00:00",
+      "last_finished_utc": "2026-10-21T19:10:15.324629+00:00",
+      "statuses": {
+        "failed": 1,
+        "succeeded": 1000
+      },
+      "stop_reason": "HTTP503_dispatch_pause"
+    },
+    {
+      "phase": 2,
+      "workers": 2,
+      "attempts": 1393,
+      "first_attempt_id": 1002,
+      "last_attempt_id": 2394,
+      "first_started_utc": "2026-10-21T19:11:29.475417+00:00",
+      "last_finished_utc": "2026-10-21T19:18:04.409922+00:00",
+      "statuses": {
+        "failed": 1,
+        "succeeded": 1392
+      },
+      "stop_reason": "HTTP503_dispatch_pause"
+    },
+    {
+      "phase": 3,
+      "workers": 2,
+      "attempts": 377,
+      "first_attempt_id": 2395,
+      "last_attempt_id": 2771,
+      "first_started_utc": "2026-10-21T19:19:24.705697+00:00",
+      "last_finished_utc": "2026-10-21T19:21:20.059713+00:00",
+      "statuses": {
+        "failed": 1,
+        "succeeded": 376
+      },
+      "stop_reason": "HTTP503_dispatch_pause"
+    },
+    {
+      "phase": 4,
+      "workers": 4,
+      "attempts": 1335,
+      "first_attempt_id": 2772,
+      "last_attempt_id": 4106,
+      "first_started_utc": "2026-10-21T19:22:52.784541+00:00",
+      "last_finished_utc": "2026-10-21T19:26:19.694837+00:00",
+      "statuses": {
+        "failed": 1,
+        "succeeded": 1334
+      },
+      "stop_reason": "HTTP503_dispatch_pause"
+    },
+    {
+      "phase": 5,
+      "workers": 4,
+      "attempts": 894,
+      "first_attempt_id": 4107,
+      "last_attempt_id": 5000,
+      "first_started_utc": "2026-10-21T19:26:54.822854+00:00",
+      "last_finished_utc": "2026-10-21T19:29:07.961259+00:00",
+      "statuses": {
+        "succeeded": 894
+      },
+      "stop_reason": "completed_budget"
+    }
+  ]
+}
