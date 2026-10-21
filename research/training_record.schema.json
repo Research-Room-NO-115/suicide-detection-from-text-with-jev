@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Provider-neutral Jev weight-training example",
+  "description": "Prepared local record only. Convert to a documented provider training schema before any upload; this is not evidence of an available Jev training endpoint.",
+  "type": "object",
+  "required": ["sample_id", "text", "label"],
+  "additionalProperties": false,
+  "properties": {
+    "sample_id": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "text": {"type": "string", "minLength": 1},
+    "label": {"type": "integer", "enum": [0, 1], "description": "0: non-suicide; 1: suicide"}
+  }
+}

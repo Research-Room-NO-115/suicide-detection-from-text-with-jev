@@ -1,0 +1,138 @@
+{
+  "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+  "cleaning_audit": [
+    {
+      "after": 148380,
+      "before": 148467,
+      "duplicates_of_earlier_split": 0,
+      "empty_after_cleaning": 20,
+      "local_conflicting_label_rows": 5,
+      "local_duplicates": 62,
+      "split": "train"
+    },
+    {
+      "after": 37086,
+      "before": 37117,
+      "duplicates_of_earlier_split": 28,
+      "empty_after_cleaning": 1,
+      "local_conflicting_label_rows": 0,
+      "local_duplicates": 2,
+      "split": "validation"
+    },
+    {
+      "after": 46342,
+      "before": 46397,
+      "duplicates_of_earlier_split": 47,
+      "empty_after_cleaning": 5,
+      "local_conflicting_label_rows": 0,
+      "local_duplicates": 3,
+      "split": "test"
+    }
+  ],
+  "coverage": {
+    "test": {
+      "all_oov_fraction": 0.0003236804626472746,
+      "prediction_seconds": 0.13416341699985423,
+      "row_ids_digest": "2f54bdfd443c3c148c70c9302c97ea66afb864b927af3982fb0324f51874b66a",
+      "token_coverage": 0.9949143528938293
+    },
+    "train": {
+      "all_oov_fraction": 0.00026283865750101093,
+      "prediction_seconds": 0.38177925700028936,
+      "row_ids_digest": "a881a34cac713c65724b5deb19535cb7a8b5a8fa4544a437208f141a35d4e2f6",
+      "token_coverage": 0.9969350099563599
+    },
+    "validation": {
+      "all_oov_fraction": 0.00035053659062719085,
+      "prediction_seconds": 0.10949539200009895,
+      "row_ids_digest": "11e971b95fa3d492f3225bd3340c00a96c581cfc3dc2ecf256c0f546fad280af",
+      "token_coverage": 0.9921572804450989
+    }
+  },
+  "created_at_utc": "2026-10-21T18:32:06.259257+00:00",
+  "error_counts": {
+    "test": {
+      "correct": 42620,
+      "false_negative": 1835,
+      "false_positive": 1887
+    },
+    "train": {
+      "correct": 138148,
+      "false_negative": 4907,
+      "false_positive": 5325
+    },
+    "validation": {
+      "correct": 34240,
+      "false_negative": 1385,
+      "false_positive": 1461
+    }
+  },
+  "fit": {
+    "embedding_seconds": 0.2605980759999511,
+    "fit_seconds": 279.1956041839999,
+    "train_accuracy_at_05": 0.931041919396145,
+    "train_token_coverage": 0.9969350099563599,
+    "vocabulary_size": 53781,
+    "w2v_seconds": 272.215878987,
+    "xgb_seconds": 6.719127120999929
+  },
+  "identity": {
+    "baseline": "Centralized",
+    "cache_schema_version": 1,
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "notebook_sha256": "0282a48a3ce13d4af8e1e5bf91c0f7602d9ec72678717628dcdd2f27c2853b24",
+    "primary_threshold": 0.5,
+    "split_seed": 42,
+    "test_size": 0.2,
+    "validation_fraction_of_development": 0.2,
+    "versions": {
+      "gensim": "4.4.0",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "xgboost-cpu": "3.4.1"
+    },
+    "w2v_config": {
+      "epochs": 5,
+      "min_count": 2,
+      "sg": 1,
+      "vector_size": 100,
+      "window": 5,
+      "workers": 1
+    },
+    "xgb_config": {
+      "colsample_bytree": 1.0,
+      "eval_metric": "logloss",
+      "learning_rate": 0.1,
+      "max_depth": 5,
+      "min_child_weight": 1,
+      "n_estimators": 100,
+      "objective": "binary:logistic",
+      "reg_lambda": 1.0,
+      "subsample": 1.0,
+      "tree_method": "hist",
+      "verbosity": 0
+    },
+    "xgb_threads": 1
+  },
+  "raw_quality_audit": {
+    "invalid_or_empty_text_rows": 0,
+    "loaded_rows": 232074,
+    "missing_label_rows": 0,
+    "raw_conflicting_label_rows": 0,
+    "raw_duplicate_rows": 93,
+    "remaining_rows": 231981
+  },
+  "split_counts": {
+    "test": 46342,
+    "train": 148380,
+    "validation": 37086
+  },
+  "table_sha256": {
+    "test": "fda4874b9950e4ffa5ebd5f9863c1ba48cd7b7f33c94fc40106c1ce1ba5ebc1b",
+    "train": "607b0f50a7068aa3ad75cfdcb3a11961e1192f972fb99d3019ac59c5cde36f65",
+    "validation": "f682376989f5cc4552bd961b86b77079f9d29299f2c0e8f1cc9f2b0deaff0950"
+  },
+  "training_table_scope": "In-sample provenance only; never eligible for Jev selection."
+}

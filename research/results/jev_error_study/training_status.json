@@ -1,0 +1,20 @@
+{
+  "data_format": "Provider-neutral records; not a verified provider upload schema",
+  "evidence": {
+    "authenticated_conventional_openapi_routes": "HTTP 404",
+    "existing_interface": "https://api.metisai.ir/typesafe/v1/systemone",
+    "official_documentation": "https://docs.metisai.ir/",
+    "official_documentation_access": "Proxy blocked during this study",
+    "provider_discovery_paid_inference_attempts": 0
+  },
+  "method_requested": "model_weight_fine_tuning",
+  "missing_requirements": [
+    "Official supported Jev training API and custom-model invocation specification",
+    "Access to that training service",
+    "An explicitly approved training-fee cap"
+  ],
+  "provider_support": "unverified",
+  "status": "blocked_not_run",
+  "training_jobs_created": 0,
+  "training_spend": 0
+}
