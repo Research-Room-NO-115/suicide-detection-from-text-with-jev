@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "analysis_population": "held_out_oracle_selected_xgboost_errors",
+  "comparison_status": "unavailable_no_complete_pairs",
+  "threshold": 0.5,
+  "selected_counts": {
+    "false_negative": 20,
+    "false_positive": 20,
+    "all_errors": 40
+  },
+  "primary_paired": {
+    "false_negative": {
+      "selected_n": 20,
+      "paired_n": 0,
+      "excluded_unresolved_pairs": 20,
+      "base": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "tuned": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "paired_outcomes": {
+        "both_correct": 0,
+        "base_only_correct": 0,
+        "tuned_only_correct": 0,
+        "both_incorrect": 0,
+        "n": 0,
+        "improvements": 0,
+        "regressions": 0,
+        "net_additional_corrections": 0,
+        "net_correction_rate_change": null,
+        "exact_mcnemar_pvalue": null
+      }
+    },
+    "false_positive": {
+      "selected_n": 20,
+      "paired_n": 0,
+      "excluded_unresolved_pairs": 20,
+      "base": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "tuned": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "paired_outcomes": {
+        "both_correct": 0,
+        "base_only_correct": 0,
+        "tuned_only_correct": 0,
+        "both_incorrect": 0,
+        "n": 0,
+        "improvements": 0,
+        "regressions": 0,
+        "net_additional_corrections": 0,
+        "net_correction_rate_change": null,
+        "exact_mcnemar_pvalue": null
+      }
+    },
+    "all_errors": {
+      "selected_n": 40,
+      "paired_n": 0,
+      "excluded_unresolved_pairs": 40,
+      "base": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "tuned": {
+        "corrected": 0,
+        "n": 0,
+        "rate": null,
+        "wilson_95": null
+      },
+      "paired_outcomes": {
+        "both_correct": 0,
+        "base_only_correct": 0,
+        "tuned_only_correct": 0,
+        "both_incorrect": 0,
+        "n": 0,
+        "improvements": 0,
+        "regressions": 0,
+        "net_additional_corrections": 0,
+        "net_correction_rate_change": null,
+        "exact_mcnemar_pvalue": null
+      }
+    }
+  },
+  "all_selected_by_arm": {
+    "base": {
+      "false_negative": {
+        "selected_n": 20,
+        "observed_n": 20,
+        "corrected": 11,
+        "failed_n": 0,
+        "missing_n": 0,
+        "unresolved_n": 0,
+        "observed": {
+          "corrected": 11,
+          "n": 20,
+          "rate": 0.55,
+          "wilson_95": [
+            0.3420853424503424,
+            0.7418021417443758
+          ]
+        },
+        "observed_correction_rate": 0.55,
+        "possible_all_selected_rate": [
+          0.55,
+          0.55
+        ]
+      },
+      "false_positive": {
+        "selected_n": 20,
+        "observed_n": 20,
+        "corrected": 15,
+        "failed_n": 0,
+        "missing_n": 0,
+        "unresolved_n": 0,
+        "observed": {
+          "corrected": 15,
+          "n": 20,
+          "rate": 0.75,
+          "wilson_95": [
+            0.531299122381256,
+            0.8881382985923343
+          ]
+        },
+        "observed_correction_rate": 0.75,
+        "possible_all_selected_rate": [
+          0.75,
+          0.75
+        ]
+      },
+      "all_errors": {
+        "selected_n": 40,
+        "observed_n": 40,
+        "corrected": 26,
+        "failed_n": 0,
+        "missing_n": 0,
+        "unresolved_n": 0,
+        "observed": {
+          "corrected": 26,
+          "n": 40,
+          "rate": 0.65,
+          "wilson_95": [
+            0.495058808372577,
+            0.778654711268237
+          ]
+        },
+        "observed_correction_rate": 0.65,
+        "possible_all_selected_rate": [
+          0.65,
+          0.65
+        ]
+      }
+    },
+    "tuned": {
+      "false_negative": {
+        "selected_n": 20,
+        "observed_n": 0,
+        "corrected": 0,
+        "failed_n": 0,
+        "missing_n": 20,
+        "unresolved_n": 20,
+        "observed": {
+          "corrected": 0,
+          "n": 0,
+          "rate": null,
+          "wilson_95": null
+        },
+        "observed_correction_rate": null,
+        "possible_all_selected_rate": [
+          0.0,
+          1.0
+        ]
+      },
+      "false_positive": {
+        "selected_n": 20,
+        "observed_n": 0,
+        "corrected": 0,
+        "failed_n": 0,
+        "missing_n": 20,
+        "unresolved_n": 20,
+        "observed": {
+          "corrected": 0,
+          "n": 0,
+          "rate": null,
+          "wilson_95": null
+        },
+        "observed_correction_rate": null,
+        "possible_all_selected_rate": [
+          0.0,
+          1.0
+        ]
+      },
+      "all_errors": {
+        "selected_n": 40,
+        "observed_n": 0,
+        "corrected": 0,
+        "failed_n": 0,
+        "missing_n": 40,
+        "unresolved_n": 40,
+        "observed": {
+          "corrected": 0,
+          "n": 0,
+          "rate": null,
+          "wilson_95": null
+        },
+        "observed_correction_rate": null,
+        "possible_all_selected_rate": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "base_model": "jev-latest",
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "classification_threshold": 0.5,
+    "cohort_sha256": "7bd4b194d7f0e232312c3e97043414d4f0b7a8b233dac1d377b878078f5ff609",
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "evaluation_count": 40,
+    "full_xgboost_test_metrics": {
+      "accuracy": 0.9196840878684562,
+      "fn": 1835,
+      "fp": 1887,
+      "n": 46342,
+      "positive_f1": 0.9198639280024115,
+      "roc_auc": 0.9751687763872223,
+      "threshold": 0.5,
+      "tn": 21258,
+      "tp": 21362
+    },
+    "max_paid_inference_attempts": 100,
+    "sampling": {
+      "available_error_counts": {
+        "evaluation": {
+          "false_negative": 1835,
+          "false_positive": 1887
+        },
+        "tuning": {
+          "false_negative": 1385,
+          "false_positive": 1461
+        }
+      },
+      "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+      "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+      "jev_role_counts": {
+        "evaluation": 40,
+        "train": 40,
+        "validation": 20
+      },
+      "limitations": [
+        "Gold-label-selected XGBoost errors: conditional error correction, not deployment accuracy.",
+        "Both false negatives and false positives are retained to avoid all-positive fine-tuning.",
+        "Error strata are deliberately balanced; the combined correction rate is not the baseline's natural error-mixture rate.",
+        "Jev tuning derives only from XGBoost validation; test errors are evaluation only.",
+        "Small held-out error sample gives wide uncertainty; report strata-specific denominators."
+      ],
+      "manifest_sha256": "16c7a1ad6235a91fd6c401ead23817f8426f6dfe79e03f910f8b34285aee7eca",
+      "max_unique_samples": 100,
+      "sampling": "Hash-ranked, balanced FN/FP quotas; artificial 50/50 error mixture fixed before Jev calls.",
+      "seed": 42,
+      "selected_error_counts": {
+        "evaluation": {
+          "false_negative": 20,
+          "false_positive": 20
+        },
+        "tuning": {
+          "false_negative": 30,
+          "false_positive": 30
+        }
+      },
+      "selected_samples": 100,
+      "selection_schema_version": 1,
+      "sizes": {
+        "evaluation": 40,
+        "tuning": 60
+      }
+    },
+    "study_schema_version": 1,
+    "training_counts": {
+      "train": 40,
+      "validation": 20
+    },
+    "training_status": "blocked_not_run",
+    "inference_budget": {
+      "max_attempts": 100,
+      "attempts_spent": 40,
+      "remaining_attempts": 60,
+      "unique_samples_attempted": 40,
+      "authorized_samples": 100,
+      "succeeded": 40,
+      "failed": 0,
+      "pending_uncertain": 0,
+      "cohort_fingerprint": "bb0facfe016c4fc3f05da7b84ee5b2448426af4249ec42372f1bb3ab7e1e54c1"
+    }
+  },
+  "limitations": [
+    "Gold labels select XGBoost errors; this is oracle-selected error analysis, not a deployable cascade evaluation.",
+    "Correction rates are conditional on the sampled error mixture; deliberate FN/FP balancing does not estimate natural prevalence.",
+    "The primary comparison uses complete response pairs. Missing and failed outcomes remain explicit, with worst/best bounds over all selected samples.",
+    "Wilson 95% intervals describe binomial uncertainty within the sampled errors; small stratum counts produce wide intervals.",
+    "Social-media dataset labels do not establish clinical validity or deployment performance.",
+    "The original notebook inspected the source test split, and base outcomes are now public. A later tuned comparison reuses inspected cases; freeze all tuning choices on training/validation and describe it as exploratory.",
+    "jev-latest is a mutable provider alias without a recorded immutable revision; later backend changes may confound comparisons performed at different times."
+  ]
+}

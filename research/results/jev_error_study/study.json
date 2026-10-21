@@ -1,0 +1,72 @@
+{
+  "base_model": "jev-latest",
+  "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+  "classification_threshold": 0.5,
+  "cohort_sha256": "7bd4b194d7f0e232312c3e97043414d4f0b7a8b233dac1d377b878078f5ff609",
+  "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+  "evaluation_count": 40,
+  "full_xgboost_test_metrics": {
+    "accuracy": 0.9196840878684562,
+    "fn": 1835,
+    "fp": 1887,
+    "n": 46342,
+    "positive_f1": 0.9198639280024115,
+    "roc_auc": 0.9751687763872223,
+    "threshold": 0.5,
+    "tn": 21258,
+    "tp": 21362
+  },
+  "max_paid_inference_attempts": 100,
+  "sampling": {
+    "available_error_counts": {
+      "evaluation": {
+        "false_negative": 1835,
+        "false_positive": 1887
+      },
+      "tuning": {
+        "false_negative": 1385,
+        "false_positive": 1461
+      }
+    },
+    "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+    "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "jev_role_counts": {
+      "evaluation": 40,
+      "train": 40,
+      "validation": 20
+    },
+    "limitations": [
+      "Gold-label-selected XGBoost errors: conditional error correction, not deployment accuracy.",
+      "Both false negatives and false positives are retained to avoid all-positive fine-tuning.",
+      "Error strata are deliberately balanced; the combined correction rate is not the baseline's natural error-mixture rate.",
+      "Jev tuning derives only from XGBoost validation; test errors are evaluation only.",
+      "Small held-out error sample gives wide uncertainty; report strata-specific denominators."
+    ],
+    "manifest_sha256": "16c7a1ad6235a91fd6c401ead23817f8426f6dfe79e03f910f8b34285aee7eca",
+    "max_unique_samples": 100,
+    "sampling": "Hash-ranked, balanced FN/FP quotas; artificial 50/50 error mixture fixed before Jev calls.",
+    "seed": 42,
+    "selected_error_counts": {
+      "evaluation": {
+        "false_negative": 20,
+        "false_positive": 20
+      },
+      "tuning": {
+        "false_negative": 30,
+        "false_positive": 30
+      }
+    },
+    "selected_samples": 100,
+    "selection_schema_version": 1,
+    "sizes": {
+      "evaluation": 40,
+      "tuning": 60
+    }
+  },
+  "study_schema_version": 1,
+  "training_counts": {
+    "train": 40,
+    "validation": 20
+  },
+  "training_status": "blocked_not_run"
+}

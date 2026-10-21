@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-xgboost-error-study"
+version = "0.1.0"
+description = "A reproducible, budget-limited study of Jev on XGBoost errors"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "requests==2.32.5",
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.17.0",
+  "scikit-learn==1.8.0",
+  "matplotlib==3.10.8",
+  "gensim==4.4.0",
+  "xgboost-cpu==3.4.1",
+  "ipython>=9,<10",
+  "kagglehub>=1,<2",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4,<5", "nbclient>=0.10,<1"]
+
+[project.scripts]
+jev-research = "jev_research.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jev_research*"]
