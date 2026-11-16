@@ -1,0 +1,62 @@
+[
+  {
+    "likely_reviewer_concern":"Are the labels expert judgments of individual posts?",
+    "evidence_supplied":"Owner supplied IEEE 9591887 link; repository transformation audited",
+    "unresolved_limitation":"Primary paper inaccessible; no record mapping or verified annotation unit",
+    "wording_the_manuscript_can_defend":"Supplied binary labels; specialist-reference claim remains unverified"
+  },
+  {
+    "likely_reviewer_concern":"Does Study 2 provide independent validation?",
+    "evidence_supplied":"Historical population exclusions enumerated; label-blind sampler tested",
+    "unresolved_limitation":"No fresh data collected; old test labels were previously aggregated; author\/time metadata absent",
+    "wording_the_manuscript_can_defend":"Study 1 exploratory development evidence; Study 2 independence not yet achieved"
+  },
+  {
+    "likely_reviewer_concern":"Is preserved sensitivity established?",
+    "evidence_supplied":"Paired historical intervals and explicit decision-bound function",
+    "unresolved_limitation":"No justified clinical noninferiority margin or fresh expert outcome",
+    "wording_the_manuscript_can_defend":"Estimate sensitivity differences; nonsignificance is not preservation"
+  },
+  {
+    "likely_reviewer_concern":"Does selective routing beat random at equal cost?",
+    "evidence_supplied":"Same JEV threshold\/fallback; population referral fraction, weights and expected random result implemented",
+    "unresolved_limitation":"No outside-range JEV scores or fresh common sample",
+    "wording_the_manuscript_can_defend":"Random-routing superiority is not estimable from existing cache"
+  },
+  {
+    "likely_reviewer_concern":"Are uncertain failures and charges counted?",
+    "evidence_supplied":"Atomic retained cap tests, failure\/restart tests; separate 10000-attempt ledger",
+    "unresolved_limitation":"No live credential, observed price or provider usage supplied",
+    "wording_the_manuscript_can_defend":"Zero new real attempts; 10000 remains unused; monetary cost unknown"
+  },
+  {
+    "likely_reviewer_concern":"Are repeat outputs stable?",
+    "evidence_supplied":"21 overlap pairs; decisions recalculated at three thresholds",
+    "unresolved_limitation":"Error-enriched repeat set; mutable alias; n=21",
+    "wording_the_manuscript_can_defend":"1\/21 changed at .03 and 0\/21 at .08\/.50; wide descriptive intervals"
+  },
+  {
+    "likely_reviewer_concern":"Would a strong local model perform similarly?",
+    "evidence_supplied":"Training-only word\/character TF-IDF logistic pipeline and leakage test",
+    "unresolved_limitation":"Original raw upstream training\/development data absent",
+    "wording_the_manuscript_can_defend":"Local baseline implemented and unrun on real research data"
+  },
+  {
+    "likely_reviewer_concern":"What explains psychologically consequential errors?",
+    "evidence_supplied":"Separate probability\/enriched review samples and blinded forms",
+    "unresolved_limitation":"Primary construct definitions, text and qualified reviewers unavailable",
+    "wording_the_manuscript_can_defend":"New human coding pending; no generated expert annotations"
+  },
+  {
+    "likely_reviewer_concern":"Are source ethics and external transfer permitted?",
+    "evidence_supplied":"Provenance table distinguishes source and current review",
+    "unresolved_limitation":"Source approval, current approval, consent, license and transfer terms unverified",
+    "wording_the_manuscript_can_defend":"No current clinical\/ethics approval or external-transfer permission is asserted"
+  },
+  {
+    "likely_reviewer_concern":"Is reporting clinically interpretable?",
+    "evidence_supplied":"Per-1000 flags\/errors\/requests and paired design-aware analysis specified",
+    "unresolved_limitation":"No future suicide outcome, intervention effect or clinical deployment validation",
+    "wording_the_manuscript_can_defend":"Post-label prediction under a pending construct definition; not individual future-suicide risk"
+  }
+]

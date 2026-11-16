@@ -26,6 +26,18 @@ attempts and remains disabled. Its concrete manifest awaits the original full
 baseline score tables and matching texts; no predictions or sampling counts are
 fabricated. The previous notebooks, results and ledgers are preserved.
 
+## Study 2: reference verification and validation design
+
+The follow-up [Study 2 notebook](assets/notebooks/jev_selective_routing_study2_validation.ipynb)
+adds source-label provenance checks, repeated-score decision analysis, a dated
+validation design, population-weighted equal-cost random routing, and a separate
+collector with an owner-authorized **10,000-attempt ceiling**. Its
+[manuscript draft](research/results/jev_selective_routing_study2_validation/manuscript_report.md)
+explicitly marks fresh validation as **not collected**: the primary annotation
+source/linkage, original frame, transfer terms and live authentication remain
+unavailable. [Collection and reporting instructions](research/study2_collection_and_reporting.md)
+separate the blocked live phase from free notebook reruns.
+
 ## Probability-routed hybrid study (5,000 texts)
 
 The new [executed probability-hybrid notebook](assets/notebooks/jev_probability_hybrid_5000.ipynb)

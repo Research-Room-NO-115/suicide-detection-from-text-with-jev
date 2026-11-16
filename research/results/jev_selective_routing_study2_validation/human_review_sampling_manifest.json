@@ -1,0 +1,1122 @@
+[
+  {
+    "sample_id":"bc30a1540c74df56ec159aedcbb6e893ff9eb7640630cf84e133c38b73899504",
+    "row_id":189493,
+    "text_sha256":"f1c7a371f8b4c2f0a383e9f6cf12fae76deb041d07f8bfa766660c492bb2081a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"caf69a00138317757d0a955095f679ec5d22fecbe6ba6adaa72f5b60a2eb47fb",
+    "row_id":117096,
+    "text_sha256":"5f807fd67147d7a0a8add174d0d9b41a0d306484cc122f726a288cb9261c5f62",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"6076f9e76031007d6655f02055bd786c9964b0e5ab3268cbe2a1c28ad8b15334",
+    "row_id":157619,
+    "text_sha256":"bb48a3743bd40383f870a0d09056046611ba453d0427706df07b681ea2f0f355",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b69ac1f37c80513ccdedb5adad4cf33d00f5f560c3fa5b35bbe36153b1865e0e",
+    "row_id":19240,
+    "text_sha256":"ebc8e35f4b1cdb1e1d5c692112914736ea63e4c72f5120b99f24676896d8b533",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"7ed90c1d4967b8b59ac1a35863a9464deafda207c13bbc5eb5996b147cf8101d",
+    "row_id":200712,
+    "text_sha256":"4f8a8c27f169a2759669eaf69ba75c5d3b7102b3b710e557a94ab4e23bbe93e6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"1d821d0011b2e79f78cd5c1469dc8db83bfa9e594b37e396d424c605851aa232",
+    "row_id":201850,
+    "text_sha256":"2e32046dea75aec9dc5f0b40c2d2610b22d4fad1137c38c4e50c002097eb765c",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"fcc1efc6a66cbc7541a403f3423d932b1e7e99a6d3d175ae8ed51e7356104600",
+    "row_id":16015,
+    "text_sha256":"db6b83ff8a9d7268f600df1752ca03a8a03dd501032129fe16dd922cceeac7a5",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d46338f5c836907c6713f3e3b579b9e6fd877f65eed46222abccbe9ed6f78631",
+    "row_id":62778,
+    "text_sha256":"28f3139650a7a888e9706a5f79ffd0f7d83495a4d3a21189385989c606687237",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"fe9ea93e075e3ac491318d0496c6b963c013385c48d87fafb2ad609c25473bfc",
+    "row_id":35957,
+    "text_sha256":"aae5ee305017266d785c7872d576673d68ce7dea1e194927328c3c59237f9312",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"7142e4c8c299ae7ce32df3e51fe3d95f2b8b368b875604b296e9db24482e11c0",
+    "row_id":169509,
+    "text_sha256":"895e198ad10ba260f03231431c5702a0bdc67205e17185a35b626aa2a7a9f65a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"906c5a18580431a1b2ba7ac6618a41ff68055118b67721cb684aaafb39ea7c8a",
+    "row_id":86692,
+    "text_sha256":"c69e0db1fdde5d508719e28984f1e9d51d5c0643ce51e1ced9cafd06d1cdad58",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"af8df11ffb8c588a1306d30c9669bf250f835bcb5ea65b88700b0b98639a4baa",
+    "row_id":47005,
+    "text_sha256":"92f54b825ea577be459e76d512440357ef9480af533ea184bc0b1527373f7ab8",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"fdf63ffe99fa7b184ed255d8f4d5561519a6f6cfe373477897e52c7cf5fa4b36",
+    "row_id":10766,
+    "text_sha256":"bbfebe7f6d8fb9c0a4a1f78939de9d6f49a5d6764f88369d728942743495fd18",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a9840b46fa7dd893d0c4008b4484a7e4137577118acb52ce6567fd0d2f1532b7",
+    "row_id":81647,
+    "text_sha256":"82d898b704817b20a83020214faa1c9c49e120b7254a3d2a482f3adc9a5d9594",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"3fa9ef728d95881f68247fd1c92ca3e89ebe2ba7e9a7529651e55e2078f13502",
+    "row_id":120890,
+    "text_sha256":"b6be4d7ac40d362a0e21b02156b4c892f7b72237eae29c8c619420a3564ef7ff",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"2e0590976b176f23f212573f7e610b2ecdf00afddcc85d001ebe8285d4947b90",
+    "row_id":220682,
+    "text_sha256":"41741e75ab72ae2463ebe3558487b927def15e4d87e3e356327dd7d9b1ab2631",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b4187733072c2220343bf931048e7d8ac25ad327ceec9eb312f17dc3ab3151cc",
+    "row_id":70381,
+    "text_sha256":"0414b6857681ac5b3a38b060ce8a08243584a9abebcb0944633ee0975a65305e",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ba21a698179111aa969b13272a4fbde84c59c27c0c388dfc3ac8e62953ff2c32",
+    "row_id":77662,
+    "text_sha256":"78ead80ca8230f48b65a2d18fa323af848225847f2d4e5293cd7ec2af5aa035d",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"fed397781c48a3a83e5c1f33e4571b09d76fa4bb1513686deada616884480482",
+    "row_id":110445,
+    "text_sha256":"25537992356eec1bd9f87c5aa7fc89b8d80fd18bf6c0fd5ac814dae18dd21fbd",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"1c783b35c8c2b653fb3b900813af85684d67d7ebb1d5dc37a24165fe74e8f38a",
+    "row_id":156788,
+    "text_sha256":"a5e735d6abd90cbceae4fac588b86716bd750335dd764001f0f5b46e85d758c8",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"dc68f771a3bcf60318fa0c31bfa120cac6e978a5b482a11e7b7a0ba25c0bdbd0",
+    "row_id":76286,
+    "text_sha256":"301738394675c273068749c9fdc2ebf5778ddc94541d0d4a276497b4747dce40",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d6d823019f315e0a1014197670c80875b73e969bd23780726c6784c69ff3a734",
+    "row_id":159883,
+    "text_sha256":"35a4b10fc6f852fb83a33a1c28fbc1b3e9ca1f05c7136fe6762fc3fffab0f6ce",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"8ea3141c9550ec7d704cb51a0bd9da28d4068618f1ff8b05d811da9e5ba4c98f",
+    "row_id":25606,
+    "text_sha256":"6342a48e1cf2ea0980366eed6f792eec10abebc569a23baa22cfeb01c0cc5944",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"83b77ab38cc89c2025f442dc8fabbdc903d40a684a3b26b2ca6805885ee6e623",
+    "row_id":140573,
+    "text_sha256":"bd3d745705bbd16660f14152ae6062dda802af1e03903252d1626a5f022008b6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0b1021fae19dc1d968f01959dc7643bd60cff059d82b3c273e7a88087efc82ac",
+    "row_id":185031,
+    "text_sha256":"435b9175383dfa9d2bc97a9ffaa1f4d2855ebafecfeb1eae67f5c7bbd2ac54a6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c2118f7f5eeb11842643fcf395cbc92d6d45990a301dd9fddfb4d5cc7c191a8f",
+    "row_id":81977,
+    "text_sha256":"9d802d030040713797f8f8d5ed6edf2863d3b0f6514c7de27d4e07d8a5510e3e",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"6447847a1933311253b04dd19a7e8309c25f8e7786720fe7b6fbfb15995fa192",
+    "row_id":111915,
+    "text_sha256":"68371086b8a0b0ea6c7f18ed753f3e6e784a41717da27bedda4aaf2153565846",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"63c1d551b000a4ebc9e6c23f720d0e2ce76b46a26e7a5a29373a2fb9aefb2d17",
+    "row_id":188415,
+    "text_sha256":"ddec5f5cc9ab9e38214dfdcae566401cf5161125ef22c114346d19f30bb3a49b",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"50e104588b231286d386d8e1f4f10296c5f89b132dde6233f6271566d2374808",
+    "row_id":78236,
+    "text_sha256":"488eb831471e20582adb0ea143fe136f217b6e6a13f28d3cbbfc8fee62a70a63",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"89163b27934096d77ffb955aad46e1e395ae5a33e4176a84651e047569243568",
+    "row_id":124343,
+    "text_sha256":"a639ac5009095bbb4eacfd482843b3460eb0c275bc5e4d2c9b3da0072a8c6b72",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"108117599cba790ca1729f80e94076e48ea8564fed88a9432bf6bc1916c7c17c",
+    "row_id":59481,
+    "text_sha256":"d414e601fe3270a0f3f74f98bfb9746a6452af34aec2507c2386e757e42dce6b",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d8e1a407eeeeb95369143223bca3ed5642cad066198f309f4b04befbabe0d19a",
+    "row_id":146935,
+    "text_sha256":"eeb474487cc6bc4f6921b7b3d37631adf3f821d834f7a8c3778763bb5a142ca8",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c523a667dfe4e49a07b99e06d63f45566d2b02ed28029c31869263b031bff57d",
+    "row_id":50268,
+    "text_sha256":"356ed5b3344569492e4eedf358ad07ecbcc0b4205e312a75c6d9fe3d612060f8",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"8421e8fddc7a1a2bece9fcaa780e5682f403b3f2a072bceeca277a712289a45f",
+    "row_id":109651,
+    "text_sha256":"702137045b3b58e5fd31e94d8b43070997c78014015641bf5882b23400f2d358",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"78c12062fdc66006fe700edcfe1044d577506b85e01a5c323d5c0bc4c7c20e60",
+    "row_id":139288,
+    "text_sha256":"23692957e026a703121a51ebf2a90633f12d897727a0dc07ff728fcb24e4c7ac",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d92e78d223b1ecd97618f93eae58a59d4e361c5f856d26a2467457a9bad290a7",
+    "row_id":123161,
+    "text_sha256":"690cb494ba3781744e2665ac15fefcb9d991a3e865ec1ff4dddd1a9582fca442",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"656a289339050a7db757ce4226809cdcdb705cec2d03d80e0cb15a8036d03e97",
+    "row_id":78493,
+    "text_sha256":"4a09af4a1408f702bef3f2f79da4e0654c20f17a81d676309ebd970535ac62d4",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"1840bbc16d5a06625de5f80782fd525cf3ac55df1cef97d439162116ee0aa0e1",
+    "row_id":36588,
+    "text_sha256":"2cf710ad96f8c1554c4a67d588db1e366463f0ce02f8bc2523fa120ffe8c30f8",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"5d051618e4330f57c4980b54640c29586e14c0a646c235965fc64325a1d61268",
+    "row_id":26373,
+    "text_sha256":"e0c4f94ea84fd863bed4bed21ec046d9e94c9fa3d4db965995fd97d65d51221c",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"1fe2074c23d21ea9da35d86a5ed291f832a64ff33192f23bac8bcc1062f1321a",
+    "row_id":126187,
+    "text_sha256":"dbe5a680c21c34bc2e2c04bde9556948e301cafe1d0f5822e3c5cad2f969a746",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d3aba96e728b6c873c2e5b8177716a6afb3b36c238b2c3ef58cf12a0cfdf832c",
+    "row_id":217118,
+    "text_sha256":"142e57ed36f459541aea438ca5efc53cc6bd064448c734d9142b86394aabc9a1",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c5d74330aed1ed4e423278acf4dc93472ed953ce3c4595c25a83205b23bb6855",
+    "row_id":229728,
+    "text_sha256":"f99a79650cdad86f1bb0d5c03a18d46e40807390ecba2757ea702b61863f8540",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a665a2976e80c6ab920c44ee789df0834e39571b5ac2e72bf5430e9062ed788d",
+    "row_id":49192,
+    "text_sha256":"cf5fcfbb6b1ea8c929cc5874a577e9fdbc53b742d5aefaf9aeb1e2a5666b801f",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d3b3875b71019bfdf52b88653f00910576f49486b7fec4750e9e6d81f731aebe",
+    "row_id":181513,
+    "text_sha256":"99e1c04c8b941e4b09efae967284cbb8d344d550d7b01b6089116cc97c48f838",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"79c25d67a5df8e21a2652fd7a5d66799b9bb32c77b1ec1f7a218a8d8043cf559",
+    "row_id":218260,
+    "text_sha256":"43ca03c6359bef8c60bc1f19b7a2d683fa6e06deba0d07408b65cbfe6b1946f2",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"55a6a54f87215d17f65ff40c4f4d5877e9228ca15a0f7f77f4b94ec42ceb8ed7",
+    "row_id":214575,
+    "text_sha256":"5ebcaa747f1c986d6a81370f3bb50b7f0b7d289c13097391eaf3f96dee53be16",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"e98a5bb034487160930a96b4cca579b07e234c9b13e475e1a6088b3b2ab4d1a2",
+    "row_id":208009,
+    "text_sha256":"f365a54c696e51bff8f5a0912579e17f732a3d9fc513a7ef2005f35c049ab80e",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"7bb905b62a863ce0c276feacacb385ef28eb5b8cdab14508b92f970fe679e8b5",
+    "row_id":38375,
+    "text_sha256":"1439a734f4399c3dd2f5e1e64b0c00fa8c62e80759cfbc3096df24385ee17be1",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"28d6ab6ad20df15e8d74818aaca92f8142c5043efbd0d9479cc8342726f0342c",
+    "row_id":222149,
+    "text_sha256":"5e815ee6baacb4e1209353fb7cdc86d4ace9bca3204bb9cbcf9ebc1b741ec6a3",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"3f62dbcaad011df967f2fdcf18e264b3f2b7f1f963b169a2391a3ecf7b5b8511",
+    "row_id":208608,
+    "text_sha256":"35cdb912fbb8afd2128496ee022311af2545a0bc9bea37d3d53df835b596a248",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"8da0e1f875fa24a750ff6d727771cbd3b328523dd803a6f12828ac65bb5f403c",
+    "row_id":108720,
+    "text_sha256":"a3fd2dea7df7640d6e5f0faa0c45cd4ee0e8282b9adb75bbaef20ea7db2b572b",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"baea0331ca3e9525fe8b01c41e8734131556b9f1cf645c649ab18be1b91d794f",
+    "row_id":93188,
+    "text_sha256":"0139bb036fe0b3c25888d269cc2c2c4a4651708d59cd4218c488f7a3e370e7e6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"629a84431e9db01f071d7b9a1ec92264ad6b39f25ad96fc2551a3488662e377b",
+    "row_id":70206,
+    "text_sha256":"43a5e7e10672a31a77a0acf98e8b2896dab12b704e195193ebd201159b1460a4",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a4a4ca376ca14b016e00f86260959fbc8f7dab25705ae784faff7a32b61e5f07",
+    "row_id":61216,
+    "text_sha256":"28bcf237e77c863445bd8e17ac3785d9567ef67b53cb4af8f7218ba3d755ad2c",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"fb71e4f644545e00e07f5dbbe9c4dff349e8170673e07173f7fba89b0e4064fb",
+    "row_id":103690,
+    "text_sha256":"ba9fbc0a151265802063e7d6ea891227d3e0028a80f56ef5fc62f4288def7acb",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0a955428286f835a36b19466c470ba0951abb99247f9f77c49755068c8bdac60",
+    "row_id":142692,
+    "text_sha256":"708c3028f1233f14dc7aa4bcc455a39a18ba73299f668f8fb243f7fc5ad8d20c",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"67ecb5446a1e250a8e3bd6a1ab7d24fe63998646cef15e1509f0653ed110faf7",
+    "row_id":111613,
+    "text_sha256":"230196b9ace729eb15ed01b68740922cfbdb2678b91ac37581978f282be65537",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0c77a67728035fcbe9ca77f3af7010db16398a5bad41c495c85a3a5a638ac4d2",
+    "row_id":36801,
+    "text_sha256":"5b1f1463e968b4ce0b67c825a6df7b860f7df262b1662508470f3753811d7d75",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"7fab9386656c1c3b7bb65c5ad7c88b8d0e85232ab2cbdd5a1d24c96f42ee6487",
+    "row_id":31992,
+    "text_sha256":"555232c0ca0c3f58a336cd4c9b126e27644479446a585d46874fd542caaf787d",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"174040a4e0600241e47e76b370bf176201c5381d7b0977989a074e24f34de7a6",
+    "row_id":14222,
+    "text_sha256":"2972b474960ce5bad9a298a0f7361b3171f0ac51f59541a6fca4d8117634b145",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"5894c97cdbc8352385e00b39c4f5d4b11c98c4a6e673dc049609cb1b010217e2",
+    "row_id":191784,
+    "text_sha256":"c1bb58b822744cbb6f1e902c460d30af45fe95a0997ad29e2ce8c174a927673d",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"45ca3369dc6c3c0a9641668f980ba0cda33e3e945136c81b70d8498d6a208a7e",
+    "row_id":114664,
+    "text_sha256":"b115302b26f830b99289b4502d84b9eb96b7c29f3242822272492b076434e33a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"5e0ffeefaa8cf53647b22c2811ad830fdd2613bd3d4d81497912654aa371abcf",
+    "row_id":209039,
+    "text_sha256":"f8c9a693f7b4f856b264efb1ab7632724672c9893c9eefdfffe36dc18f976467",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"3a1824b55a99a711fcd179af739cc7b0d1ad672e52881ba8850d60051855c2c1",
+    "row_id":114771,
+    "text_sha256":"c4b2271e007b3f5e4cdd2342d1ab73dbd8fd3f95d4e30d9bc27e6064573a8209",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"e5852d8aa9f7421cb931c309cb473a97a8eb5042bce9c971407577c773251bf8",
+    "row_id":92009,
+    "text_sha256":"10956d4e9ea53560584369d1c5504d59d371ebaa30d96d8bc5f81adea4d1aafb",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"2aad77ed50f226027dedc08d7e38e7bf8580ee6a9f56d5c89ef59127eb3266d0",
+    "row_id":23266,
+    "text_sha256":"1e9f92c96bf189fc69e8f0c8359cf4b9a9edc007d5f0165968308d3b33f9743c",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"596e33f5dadb9e815662cc1cbc50b60018c0f7c92140135a3bf92570e4a246ce",
+    "row_id":137665,
+    "text_sha256":"4544599fb03f41ec641281c67df2bbde7792513c51346f68cd5ff856377197bb",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"391d8dfcb67320ae091f1217e598d095bb2dc25f6fb6980d9cae4736d6fc3270",
+    "row_id":2875,
+    "text_sha256":"4e6a5b05332805b010bec187b4b6654e4b31bc316d8ad6537c46615290fd8e83",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a6d37d408fcd5ce069d1b3312766002712ac090429ab4f567ad9c2971c0b6448",
+    "row_id":107607,
+    "text_sha256":"87b8b69586b4117786cbf94ae4f05abe97f1f5b7bc3924034870173f596c2350",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ece454036ad784e646bb318cc6841f14382694c1e4af924c619b95858bff730a",
+    "row_id":48807,
+    "text_sha256":"26aa07470f39709de1af7037a9f82ef107599f7fea2daaf5f88161d19331f18b",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"155dcf1cfc9ac9f4ed39cbfdafba752a7241cf8ec5ee87b24e8d022fd0dbff15",
+    "row_id":87584,
+    "text_sha256":"038639e0911f389e011688e4bebbd0e9260dcefaf623a68f1d6c1ad597570af2",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"36fbd4876f1b1d63ae629306d8376a0f733799431786ae849df900ea1048328e",
+    "row_id":184655,
+    "text_sha256":"d665e14a6f8ee3c35f285b630782b946e6a836e1f57db93a3296ad84f9790660",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"980b4e75827710e4ae49ee537f8c52ef31390f450ca44c6511e66b2c219ef149",
+    "row_id":215246,
+    "text_sha256":"afe41038fef3bd28820155eba1aa6e5f6cbced9b98b37c936c342571709c3183",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"5c8f3bf13d2c90dfb1c934f83bf00c9c16539a8809ff5e1fb597443aeda7e955",
+    "row_id":206748,
+    "text_sha256":"fbb88ad55971ee65d25f0006cce6c7b01df95a474ad8117b04086ced87d90964",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"aa1293c9ca2b3801a6b1fd79a415319ed42ce18017c4e2a8c4f652e7d72f3264",
+    "row_id":121946,
+    "text_sha256":"65b5d67ce4722e33310dce876a8fd5848ecb8f75a5ca89250a2550c05fcb448d",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c33cb2fdffdf28859fb01492506eebd9bd4e7ec1a86b3cadc4b24fac3eb5c61c",
+    "row_id":106353,
+    "text_sha256":"3adabd285b29915a0b21ad87d5d61e40ea285a5ec7b297f7142f66f1a655914a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"36da4696a5024f6b28eb4d85b2d7c329af2231118ca5e01ea034db5a18a8d496",
+    "row_id":208176,
+    "text_sha256":"89793e4500343932725cddfd6153ef4c8b01ccf3b15d7bef9a04779537dd4ed2",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ba493dcd635d217a202c66553d52817a21abb0e4fe5d1879e23ef12491fadf92",
+    "row_id":213805,
+    "text_sha256":"590b1e7cf0fb7977f5f6989d388baeca70d985e56bde38e4d4cb36f05f2f8530",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"2522d4d04b01f3c00ac6f341d3b84bc5474b3f5fe7374e180bdf5f33b176e7c6",
+    "row_id":71686,
+    "text_sha256":"7db49c98cd5c516836c84fba81ba92783ee3ffa2a00588a0019f108b41a63213",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"431ff07147b21085c9357793262c4930d9ec67436a3681a6497e1bb60b58e5b9",
+    "row_id":44154,
+    "text_sha256":"ebcad0024c0cd14d2294445e738b32655c70dff3dc221ed6aa0c2ba92fd75065",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c33e5488b21a33a08e77de546e676e523f54dc8d65135dcc91e637a7d12cdf65",
+    "row_id":58161,
+    "text_sha256":"216abc15a9b166e8ddf6c134ac78e7a17feea58e3a7d2cddd6fedaf513014069",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"52adb1be90aa1ddbb2cc56e5ba9714f9ada3d153f6a8787ac35033d454f2ccdb",
+    "row_id":182176,
+    "text_sha256":"37547bde2ae66241775aa9507885f130820b7b481ca34d941d439874aefe3f83",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"428985f97764b4e7cfb7209473b4ae943d79da748691c1353e3069ec08a82d88",
+    "row_id":20889,
+    "text_sha256":"b34765df83e4e6d0fe3b04931d49063725926d2c3a385a973852b9b555efb23f",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"d20c6bbdacd8aa250b9083c18bca091327ca7bf4dfb57bdc031a9d52d395944e",
+    "row_id":230879,
+    "text_sha256":"0d3ca40d1a216f0adf795cdb314d15e41ab9f76eada4695d671e5e05503af3d6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"30956ceb09ce7f209fa6f6c9a3a2c96866df46618261ddf59799dd5078365d13",
+    "row_id":13869,
+    "text_sha256":"2d5fb817cb609384446b73abfa5509fb0ab15640d14a4d46203dec5e180a2d62",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"4b3edf10a09b638dc3050b4a6b01a5433be8849dd3184e57e21537fe00ccbb98",
+    "row_id":125751,
+    "text_sha256":"ee82ab44d58db3f72c478907938eed9e96d77c8aa66ac59874b99b15da72d8fc",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"4ad770c3429b234e02725bcf11af4f8dd892a228482385433ea53eb0d97b2c56",
+    "row_id":195595,
+    "text_sha256":"35bab97dd246ef341c933afcbf87a4038d863497c7f5888043b7f199ea7ebcc6",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c3da078c7cddbadf5b176bf676e5c3e712d496b9b3d250d71869eecad8c53f17",
+    "row_id":32915,
+    "text_sha256":"00663b9577ec35ea234dc85596fc94a3aef6f2f89d6414fed674f9bcf96baf82",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"9311c1f56d2c475f4101287a5a5a4e2778063409c841320b69a41de23ddfc361",
+    "row_id":118501,
+    "text_sha256":"993748ded119db5610d60fe3ed36b501938978e61bcaa744190a031dad30062a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"af5ae234ff509cae1af7ce1b5d8d16dd9aaff2ecc5532bd25eb08b93c3e7f2bf",
+    "row_id":106000,
+    "text_sha256":"fcdc303dba25addd944f66f36c214528a1b858b1770980e5f7d4d0ec8570ea9a",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"cc30996a49f205624be2fc5d32b609f8524db2392310752a9e1dfb27e32c90f1",
+    "row_id":157780,
+    "text_sha256":"c49c33eaae13a4cb3245cab4e2981c81b5a06a7df32f576d6b17f9197824709e",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ecb8d7377bb1f5050fa900c605084f87af56f1906feea69f8c63f956ead77cb6",
+    "row_id":210870,
+    "text_sha256":"b889804b9309754806e3e149c672e6dbd998cb85256341091a721dfb80dac645",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"521bec3473e821fd612b32c3157b2f6a02c573f0e7591242d9dd391f2cc6dd1a",
+    "row_id":61020,
+    "text_sha256":"0cd35a87690c1cad097647092680fd3e9044d258bed99843577ee02ff1c185f7",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"07baefe543b14c6ce6dcb040360508802226ba8e2a27ed3ff3e3c2cbc71e653a",
+    "row_id":201806,
+    "text_sha256":"bfd8894f5b5c4c065e8b0aa0e9063dad7c849cf3acffbe3d68150e551156a2e4",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"dbc02853ba63c376e0cb3ed4cdc07fccd23d8a752d855c8bcce8e7ef353e7096",
+    "row_id":95165,
+    "text_sha256":"2d13e66fbb7648ccc568c072ccd0aa9a6c705f69395dfa4008f592f094016fbe",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"3471076d53eb8e7b9df3ec86a2369cd499860767cb8b02ba77323d30f0a23042",
+    "row_id":113284,
+    "text_sha256":"afd5545dc57e160c8f9aaee485f70c1fe2a6a73acd84bc30d28c9fb3cbfb3c78",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"3625b7cb1fecf4f594fbb811f8de66728f28c12c6569ef86446813525d5294db",
+    "row_id":181841,
+    "text_sha256":"95b2c76f8825ff666b4629922ac57bfd93989e5ac53c97b6acf2ed93088c8182",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b47cea5b4dffb56c6637ecb17f06f12e4c2959552ba531ca45db21214e379fba",
+    "row_id":14752,
+    "text_sha256":"9646c5997d62b5f02acc9d21e93f2d5c1faa4946891136dbaca6cda8e2d0f46b",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"cdf1ee669627f42bbb14fcb6b75817768448b9998555818327367a921b07d52d",
+    "row_id":60313,
+    "text_sha256":"f49cc16d119b29d4a778fb3abb64fe4ac899ee568c84eb2710d7102fab40c6ba",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"e28cbf5867765315adf0d2ccf215aea6977d1e367aeef9b179af5fb74b62154b",
+    "row_id":71862,
+    "text_sha256":"97adac981fb22e642cc8c9f295e415974606e4312f0d1fd638709a96c415b986",
+    "sample_kind":"probability",
+    "inclusion_probability":0.02,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"f81ab3f861b7aef1f56ec85e3c7026c01b3135172c198bb666021ca77a82c7e2",
+    "row_id":94399,
+    "text_sha256":"e0c154444417eedfb4f635accdd9bf8960814923f72be6e276749f44e2e5e20e",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"dc765bb162d09da1b1e2c138a906791fcd41537aa2767ebd4276277cc9d8331b",
+    "row_id":200692,
+    "text_sha256":"8fe7af4d100284d8967500b5a433a3efd6de3a064156929534a5e23084456b12",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a620fa0793078cb41c7f82d01843c52c2449de2e2844713f8c35267c299c1dc6",
+    "row_id":4634,
+    "text_sha256":"308088a2431daeed3493a36626b2304a4c885053e262486bc4088793fac8b9ea",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"7dffa7f5b765fe07454d81ab6e1ea0ddc693e97d7c987e563806e86144f9cf69",
+    "row_id":148092,
+    "text_sha256":"a6b65003bdb06da8b5e291217321d8f607386d0241a9a4dc3c1b5053002a944b",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"c5096a115ae95ec6608fdc2a66fffff3005c33409def972dd76708379ca37d2f",
+    "row_id":48708,
+    "text_sha256":"3134cbdcd331e8399320dd1e6a341f53ffc268db078407a6a0ea6e6ec2b6ae54",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b0794566bde4321be6f78155b91b9e6c5c1db84b254320762124cbcbf41a5734",
+    "row_id":80038,
+    "text_sha256":"cd228d6861369123418d53c838649d6602652a3c1317212077f6a1cbb2a7c10a",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"266e6ebd26454a3220a8ed0f6f5be63b15b66c63024f8b1f5b0b2e767eefb449",
+    "row_id":223109,
+    "text_sha256":"aae19aa8030a0806cdfaad2add828f81098b0ff90b2298c63808dfb32a99a5ad",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"487e167f08d5fe9410a83aec0ec25a4d8a67d2e1d19213bd01a9cd853089f324",
+    "row_id":35517,
+    "text_sha256":"c22ca09920876ba6582ed3afa3150950ef75ca6f93a11208b5aeed95185ae32b",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0740e81baa85b0503d6410b50fc74a30248ad37f22d4ea6bce8e7f92e8cff45c",
+    "row_id":18657,
+    "text_sha256":"001b667f36a30ee90ad612f130537e5732993d598efd6d4eb82c42979cbfaa23",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"e52b5020b13e50cfe290fdd15bf627188f023a43aaf6cee4be9c77192a7db332",
+    "row_id":141459,
+    "text_sha256":"f25053c11a0e3152a773ee6ec8e6730db015648a9cdec2762dd2862144b150ed",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"073205fb2bc939406256a48b3fe95ec755926f630c53178b6c95a90e8aa44b60",
+    "row_id":131414,
+    "text_sha256":"f4547cd94a5ea66ea5a005cb3bce4008f0969e4cfed5ad7609ee917f276091e3",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0b883fa801a3c0ce6da5f12c1922bf7699d9ed986af8b05c30a1520efa3d7a73",
+    "row_id":144354,
+    "text_sha256":"6da79c64e8c2c7ce55ef02be9545e3a901622642e682cee481c59119b24f2a66",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"551cb1bd4044d945ad622aafcfe4574ffae7e8f70f24559f3fb341636f546773",
+    "row_id":24044,
+    "text_sha256":"9bc3bf6a9312ecc6cb43bd8c518e064bc233e85cddea53576903f2ad963713a9",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"a0f823ad89cecee44ff7fabfd6b4424161bb14e24e3bb0a19ba750f444a55fc9",
+    "row_id":1235,
+    "text_sha256":"5636e371027c18a2178535775ced795b712cce060cf9efa8fc29bf40eacd0907",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"4cdf43171b6343cff605735c710f933a3e0be79e8fb548a2f7d0dbcbcfc0e99e",
+    "row_id":148060,
+    "text_sha256":"58e43a8538b8d105d2ada364ac83e82ee05b9777658ced76d83ea5380ea5c593",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"0d57c2f1e572b4c95ac734872c70edc7c3fa372bcade232ac318208c5c332cb0",
+    "row_id":181051,
+    "text_sha256":"82d9b58aa92b039de326a54fbf4ea23729e3b78be0a7fc477d520f7040fbf083",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"85b1d3544770219fdb187dec41b1bcf17b45c25344a0056583ab175af938a384",
+    "row_id":44367,
+    "text_sha256":"2886e410f818e80157d0655e7fbad825e160a4b003dd7535ab31493dba9f9359",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"8e311862782291bcf81a117b074a77f18b48f2437bcec193c15c9f48e5ba3042",
+    "row_id":14509,
+    "text_sha256":"beda824ee003dd4693480b335489af4473143338a2a13888b9bb2dc895254fe9",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"03939f64cde1754066b4f19026d069107e7c682c0e9a10b86fa549d55d7ebe1f",
+    "row_id":214497,
+    "text_sha256":"6aa53a8ac945f34c1b55a89cc5723ac4140e70d87373fea52099de35653a7efb",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"749078fa04718efb079e6c8907b4ca2f2de8338db94b22705bb8e01cbb9ede59",
+    "row_id":202200,
+    "text_sha256":"873041930351437dba697675f78471a801363c4f901af8f67cf6ff7e89c80f8e",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"2dfab6a3039e3fc13a1b0955d54923b0aa33cae94d43db01bbfd0fdc8fcd64c0",
+    "row_id":217761,
+    "text_sha256":"e37d36c911419d0fc13ef9de2a081829712adcc1ac29f9147f9dd67f3d4d85e9",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"80e3a8cbe4e6129fecec074cf221d446daf24ad8fc222b142b9aedb064e3b92b",
+    "row_id":151562,
+    "text_sha256":"8309a70be4144a50f7e30fcd99f8bbe0519666bce6192339011ee7b1cc34e097",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"dea0c21aa7d61c733134cf32f2fd402dd428f90d05cdaca415547bd22194e942",
+    "row_id":10299,
+    "text_sha256":"67496702915fef0bcf18dd3d52f7f45ff13603fbb7af7a28bdaad2e183cf1f78",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"23dcca94bfbca1e354f82268c8919c542c641aa4bd3257ec40235e5bd93f1076",
+    "row_id":52823,
+    "text_sha256":"3f6ec152121ae46a88e311f672e79216147fde4931eeb642c2401a7351aaa626",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"df87cea5027dafa372cec23b656230f24efa8fcbb8d23e2f9b47ae0be7a72251",
+    "row_id":147100,
+    "text_sha256":"16613118925657865763bef217be7d39eb589e431636853de97bdad51df00565",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ab94420541f7e815a2288637238d0141f92bd95eac1473fb0d780a34ab3f87d9",
+    "row_id":10210,
+    "text_sha256":"4c66cfe6a39528904a7794d3f72ef7b7dd8a86895391e7ed7722b4e48da1dda4",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"9180a18709bdb27f0c785223714e78f7780b99a5ead12531dae143a0043f702f",
+    "row_id":225508,
+    "text_sha256":"269c9b2c6db707c1d79fa5a216f17f2a22e75af5446551d26b77055272c2bd79",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"e7a013a18f50e3140beaa3ae0a5bb0bb2f31e55963045b1dad2e511e3bbfdbab",
+    "row_id":89442,
+    "text_sha256":"b13c2c44c4f4b209f5fede2b6456f9e72fa05e479d375656aa2845aaf510e042",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"8ad21417a881b49bbe994f2c5690c4f3d35806c7c533fa75e4d449dc23189a71",
+    "row_id":146350,
+    "text_sha256":"e80e7db630752f36074fb2b0b3895cee993a56e23b2fc4238ce092dec251d39e",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"86effb239a8e0c554932273e30082947980f3d6d495eddb0fa5112a42608ac39",
+    "row_id":153967,
+    "text_sha256":"dd97267d5767ed342be88ece884698df3262c04ae0e6b0ed364688e3dd2163b9",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"4ef7f68450d8071f339e313dcc2c4f03a88f8eb98ea6769015a1306a3c73b919",
+    "row_id":202106,
+    "text_sha256":"327d9119a27d6d5821ba043e5b3e27efe54b75722581ebd111f45a39e545fb38",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"ade695295294ec71e0a706f90fe86b47d5b4aabd2d55a33015049be46952cb9a",
+    "row_id":39432,
+    "text_sha256":"b59d9bfdfc25fed65235b5a5a759f134cf69a3982dd66751d6b2d00bb1c64fd7",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b414bbdc0cdbe02d1600af9de3706c0c033182029881430d69b5ef7b7c1fb494",
+    "row_id":32374,
+    "text_sha256":"fae6fbf6c2406ae7dc042f23ea180513bf2c34c951701d9e38d8236731c46438",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"5557a4298393f41c61685840cd6c0bf2d52e77908bd2cf3fc0cd159bab1626b8",
+    "row_id":73764,
+    "text_sha256":"148cc709b2bb14e54e27bea739e7ff237d803d2973ea4770f8ce58110a687f51",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"be8242da04594d163f194f9326374f46fc177d38387e845ae1b579f5e893edea",
+    "row_id":107685,
+    "text_sha256":"757087c41dde552c9781dd4e8e2d04042236b76f62bb780e40cab78032bf44aa",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"843c6868fa9759c4ae3789b2ba51aa7a48f6066676c476e8c2511e5ae74abb34",
+    "row_id":133473,
+    "text_sha256":"f4128525288a0d70527d55bc883ff724690eb0927a3056f825963471bd1bbb21",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"466c23cca622f0a86cf3e12dc5d6216885c08335a6cf44731d94d75120031da8",
+    "row_id":126444,
+    "text_sha256":"9cfb3d0734d44cb59c3ad6fe9ad95c65bafa20e2fd2983e73c2d3ed1a78ff7df",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"08374afa16ad3cb47087811a8cd3ee4dd2f9c4eb03419bf98192a83082335142",
+    "row_id":186747,
+    "text_sha256":"9ce1b9e5155a0162b2457644432d28abed713014b866dad6211af6db24f404e0",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"95a49dc7aa3c78bd30fc9733b7cb5d41447225492aa55605bda756b27a0f75a7",
+    "row_id":20765,
+    "text_sha256":"5caf35a0547c2be6422b3326f861f845f47b14adce6bde37387df7f1a07ed619",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  },
+  {
+    "sample_id":"b9c930efce60e93fd82e1877995c6e4c33b411df1f66d0521be85e7f77d2d76b",
+    "row_id":144366,
+    "text_sha256":"2392c4a79a8698b3d066ca4ee3f576cbe7d5b568dc969c2c482bca064a157400",
+    "sample_kind":"enriched",
+    "inclusion_probability":null,
+    "scope":"historical Study 1 only; not a fresh Study 2 sample"
+  }
+]

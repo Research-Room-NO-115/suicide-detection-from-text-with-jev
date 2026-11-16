@@ -1,0 +1,13 @@
+{
+  "actual_new_attempts": 0,
+  "analysis_status": "NOT COLLECTED",
+  "failed": 0,
+  "fresh_effect": null,
+  "ledger_exists": false,
+  "pending_uncertain": 0,
+  "selective_beats_equal_cost_random": "not estimable",
+  "sensitivity_preservation": "not adjudicated; no fresh reference data or justified margin",
+  "study_id": "jev_selective_routing_study2_validation",
+  "successes": 0,
+  "unused_allowance": 10000
+}
