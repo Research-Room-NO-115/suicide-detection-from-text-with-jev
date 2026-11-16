@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-11-16T11:13:55.482264+00:00",
+  "recorded_at_tehran": "2026-11-16T14:43:55.482264+03:30",
+  "branch": "research/jev-study2-validation",
+  "owner_credential_received": true,
+  "credential_value_persisted": false,
+  "credential_validity": "not tested; target unreachable through enforced proxy",
+  "observed_runtime_spec_revision": "1",
+  "preflight_connection_results": [
+    {
+      "url": "https://api.metisai.ir/",
+      "result": "proxy CONNECT denied: Tunnel connection failed: 403 Forbidden",
+      "provider_reached": false
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/9591887",
+      "result": "proxy CONNECT denied: Tunnel connection failed: 403 Forbidden",
+      "provider_reached": false
+    },
+    {
+      "url": "https://api.kaggle.com/",
+      "result": "proxy CONNECT denied: Tunnel connection failed: 403 Forbidden",
+      "provider_reached": false
+    }
+  ],
+  "paid_inference_dispatched": false,
+  "request_changes_tool_available": false,
+  "needed_runtime_change": "Apply the already saved domain grants to this running environment; a saved draft alone has not changed revision 1.",
+  "existing_scientific_prerequisites": "Recover compatible source records and verify the annotation unit/transfer terms before main evaluation collection.",
+  "accounting": {
+    "actual_new_attempts": 0,
+    "successes": 0,
+    "failed": 0,
+    "pending_uncertain": 0,
+    "unused_allowance": 10000,
+    "ledger_exists": false,
+    "study_id": "jev_selective_routing_study2_validation"
+  }
+}
