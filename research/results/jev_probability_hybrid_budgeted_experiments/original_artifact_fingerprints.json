@@ -1,0 +1,12 @@
+{
+  "assets/notebooks/jev_probability_hybrid_5000.ipynb": "b2ec6bc31d0fa1d325904ecb1941082e33a929f864dd2b077a9b849a2c6f4696",
+  "assets/notebooks/jev_xgboost_error_rescue.ipynb": "ca5ff74eb7d7eef4530c439d985294962d10c88d498484aa2bff8f3cd469f048",
+  "research/results/jev_probability_hybrid/execution_audit.json": "0cad5d56c8cf033c611962df105956c1e51ec2c95eaaa2d6a01a9bf0f28bbc8f",
+  "research/results/jev_probability_hybrid/hybrid_report.json": "05a2495ba8c7d7dcdb5f261cf68eb54f0041336af238d01051c173d66e77575a",
+  "research/results/jev_probability_hybrid/inference_budget.json": "25ba71253c70d0c94bccda14bcf5c7b49e2c571fb327e0f5cb5e3ad84ad62faf",
+  "research/results/jev_probability_hybrid/predictions.json": "9f04d56564020ee5f860528691c869d3fa273d0a481d4d163e08a4c53cfff042",
+  "research/results/jev_probability_hybrid/routing_manifest.json": "5c4738c3a0e8fcde034e1c104ccffc54d59b0711d3de1650ce91739c34ad408f",
+  "research/results/jev_probability_hybrid/study.json": "4e4ea91e98f318da48f458d8875f7548d5ff3d2f0a2785e0a8d5fd2f09ab6971",
+  "research/results/jev_probability_hybrid/validation_bins.json": "4904f55acbd3141d191eec6a07bf6e05c68ecf240e4baa3f3ee9a533bff92b8f",
+  "research/results/jev_probability_hybrid/validation_interval_candidates.json": "8b646208ac2f71738afb2e7636ba04f21e556c89b967a045a8b7ee6193177420"
+}

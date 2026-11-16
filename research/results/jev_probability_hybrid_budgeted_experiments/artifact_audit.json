@@ -1,0 +1,147 @@
+{
+  "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+  "cost_and_latency": "No pricing, currency, usage, or per-request latency retained in public exports. Phase wall duration includes concurrent requests and is not mean latency.",
+  "dataset_recovery": "Version-14 kagglehub download attempted: api.kaggle.com proxy returned 403 Forbidden. Git tree and workspace contain no original CSV or full per-row baseline scores.",
+  "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+  "earlier_additional_compatible_cache_n": 19,
+  "earlier_cache_handling": "Do not overwrite historical responses. Extra earlier error-selected cases are excluded from common-population comparisons; exclude them from new sampling.",
+  "endpoint": "https://api.metisai.ir/typesafe/v1/systemone",
+  "failures": 4,
+  "feature_learning_audit": "Source inspection: Word2Vec vocabulary/vectors and XGBoost fit training rows only. No retraining performed. Runtime split/text checks unavailable without private tables.",
+  "historical_attempts": 5000,
+  "historical_execution_window_utc": {
+    "first_attempt": "2026-10-21T19:07:43.985618+00:00",
+    "last_finished": "2026-10-21T19:29:07.961259+00:00"
+  },
+  "historical_phase_wall_seconds": 1001.676233,
+  "immutable_model_revision": null,
+  "label_map": {
+    "non-suicide": 0,
+    "suicide": 1
+  },
+  "new_paid_attempts": 0,
+  "parser": "answers.department.score; finite numeric non-boolean in [0,1]",
+  "preprocessing_audit": "Source inspection: NFKC/HTML/lowercase, remove URLs/emails/mentions; expand negations, preserve words/numbers. Raw normalized duplicate/conflicting labels handled before stratified 64/16/20 split. Cleaned collisions removed with train > validation > test priority.",
+  "prior_error_study_overlap_n": 21,
+  "prior_overlap_different_scores_n": 11,
+  "question": {
+    "criteria": [
+      "0 - No risk indicated",
+      "1 - High risk indicated"
+    ],
+    "instructions": "On a scale of 0 to 1, how likely is it that this text indicates a risk of suicidal intent?",
+    "type": "score"
+  },
+  "question_sha256": "bd49f5423c96794a8ddc18e2a3f8c3c83c694a522890aa894c6ef76b5d653a71",
+  "request_model": "jev-latest",
+  "score_semantics": "model-returned 0\u20131 suicidal-intent risk rating, not verified calibrated probability or token confidence",
+  "selected_n": 5000,
+  "source_revision": "c70306c934a2c840d1fcd1d2378cbf241ed644b5",
+  "sources": [
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/predictions.json",
+      "sha256": "9f04d56564020ee5f860528691c869d3fa273d0a481d4d163e08a4c53cfff042"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/routing_manifest.json",
+      "sha256": "5c4738c3a0e8fcde034e1c104ccffc54d59b0711d3de1650ce91739c34ad408f"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/study.json",
+      "sha256": "4e4ea91e98f318da48f458d8875f7548d5ff3d2f0a2785e0a8d5fd2f09ab6971"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/hybrid_report.json",
+      "sha256": "05a2495ba8c7d7dcdb5f261cf68eb54f0041336af238d01051c173d66e77575a"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/execution_audit.json",
+      "sha256": "0cad5d56c8cf033c611962df105956c1e51ec2c95eaaa2d6a01a9bf0f28bbc8f"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/inference_budget.json",
+      "sha256": "25ba71253c70d0c94bccda14bcf5c7b49e2c571fb327e0f5cb5e3ad84ad62faf"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/validation_bins.json",
+      "sha256": "4904f55acbd3141d191eec6a07bf6e05c68ecf240e4baa3f3ee9a533bff92b8f"
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "data/Suicide_Detection.csv",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_probability_hybrid/cohort.csv.gz",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_probability_hybrid/budget.sqlite3",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_study/baseline",
+      "sha256": null
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "assets/notebooks/jev_probability_hybrid_5000.ipynb",
+      "sha256": "b2ec6bc31d0fa1d325904ecb1941082e33a929f864dd2b077a9b849a2c6f4696"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "assets/notebooks/federated_xgboost_distribution_iid_non_iid_executed.ipynb",
+      "sha256": "0282a48a3ce13d4af8e1e5bf91c0f7602d9ec72678717628dcdd2f27c2853b24"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "jev_research/client.py",
+      "sha256": "2f9885838bb03ba1f0291daaae6611da02f986822560e21dc3aebd55351589cc"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "jev_research/notebook_pipeline.py",
+      "sha256": "92f944d815a8a581245361428a20c7900ea6cce3264b6fec4d675b159203250e"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "research/results/jev_error_study/base_predictions.json",
+      "sha256": "2e47bff2102dbb4f2b39d53820524b83dbdddf8c79fc26604f773ecfdd6a20ca"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "research/results/jev_error_study/selection_manifest.json",
+      "sha256": "4ef1a528145aad1e2408f762cf148b0db061ebb9780d862cb511836b912ddf30"
+    }
+  ],
+  "stronger_separation": "No author/time fields in supplied manifests; source loader retains text/class only. Author/temporal disjointness cannot be assessed; no author bootstrap is possible.",
+  "successes": 4996,
+  "truncation": "client sends original text unchanged; no client-side truncation. Provider context handling unavailable."
+}

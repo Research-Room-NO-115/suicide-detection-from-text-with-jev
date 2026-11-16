@@ -6,6 +6,26 @@ an earlier **100-error study**. The hybrid selects texts by probability alone
 and measures corrections as well as newly introduced errors. All code,
 notebooks, and reports are in English.
 
+## Cached policy comparisons and a budgeted follow-up
+
+The [new executed notebook](assets/notebooks/jev_probability_hybrid_budgeted_experiments.ipynb)
+reproduces the 5,000-case study, compares OR/AND, threshold tuning, score fusion,
+calibration, routing and paired uncertainty, and makes **zero new paid calls**.
+On a disjoint 3,000-case exploratory analysis partition, thresholds chosen for
+95% development recall yield 95.42% recall / 1,193 false alarms for XGBoost and
+96.04% recall / 625 false alarms for JEV. The paired recall interval includes zero;
+this supports fewer false alarms at comparable sensitivity, not a confirmed
+sensitivity gain or independent replication. OR@0.50 needs only 2,184 prospective
+requests on the historical 5,000-case manifest, with 322 misses and 1,049 false
+alarms. All comparisons reuse cached responses.
+
+See the [protocol and optional runner instructions](research/budgeted_experiments_protocol.md)
+and [new results](research/results/jev_probability_hybrid_budgeted_experiments/report.md).
+The additional 200-development / 300-evaluation experiment is capped at 500 total
+attempts and remains disabled. Its concrete manifest awaits the original full
+baseline score tables and matching texts; no predictions or sampling counts are
+fabricated. The previous notebooks, results and ledgers are preserved.
+
 ## Probability-routed hybrid study (5,000 texts)
 
 The new [executed probability-hybrid notebook](assets/notebooks/jev_probability_hybrid_5000.ipynb)

@@ -1,0 +1,7 @@
+{
+  "finding": "On the 3,000-row exploratory evaluation subset, development-target-0.95 XGB has recall 95.42%, precision 56.38%, 74 misses and 1193 false alarms. JEV at its development-selected threshold has recall 96.04%, precision 71.29%, 64 misses and 625 false alarms. This is 568 fewer false alarms and 14.91 percentage points higher precision. The recall difference is +0.62 percentage points (paired conditional 95% CI -0.80 to +1.94); a sensitivity improvement is not established. The JEV rule would require 3000 requests for these 3,000 cases versus zero for XGB. All analyses reused the existing cache: new paid attempts = 0. The lower-cost OR@0.50 rule requires only 2,184 of the historical 5,000 requests, with 322 misses and 1,049 false alarms on that full selected population. The additional 500-attempt experiment is pending original full baseline artifacts and explicit activation.",
+  "independent_confirmation": false,
+  "matched_comparison_population_n": 3000,
+  "new_paid_attempts": 0,
+  "optional_additional_status": "pending_full_baseline_artifacts_and_explicit_activation"
+}

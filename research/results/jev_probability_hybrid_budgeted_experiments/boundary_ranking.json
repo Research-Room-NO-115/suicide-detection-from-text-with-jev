@@ -1,0 +1,167 @@
+[
+  {
+    "boundary":0.25,
+    "diagnostic":"baseline",
+    "left_n":0,
+    "right_n":299,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.499505222649808,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.25,
+    "diagnostic":"replacement below boundary",
+    "left_n":0,
+    "right_n":299,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.499505222649808,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.25,
+    "diagnostic":"replacement above boundary",
+    "left_n":0,
+    "right_n":299,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.887300714678395,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.4,
+    "diagnostic":"baseline",
+    "left_n":257,
+    "right_n":239,
+    "pairs":61423,
+    "inversion_fraction":0.0,
+    "tied_pairs":0,
+    "local_auc":0.523159434422233,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.4,
+    "diagnostic":"replacement below boundary",
+    "left_n":257,
+    "right_n":239,
+    "pairs":61423,
+    "inversion_fraction":0.280416130765348,
+    "tied_pairs":0,
+    "local_auc":0.740034297819398,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.4,
+    "diagnostic":"replacement above boundary",
+    "left_n":257,
+    "right_n":239,
+    "pairs":61423,
+    "inversion_fraction":0.642495482148381,
+    "tied_pairs":0,
+    "local_auc":0.745195783385733,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.5,
+    "diagnostic":"baseline",
+    "left_n":216,
+    "right_n":214,
+    "pairs":46224,
+    "inversion_fraction":0.0,
+    "tied_pairs":0,
+    "local_auc":0.449663485468199,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.5,
+    "diagnostic":"replacement below boundary",
+    "left_n":216,
+    "right_n":214,
+    "pairs":46224,
+    "inversion_fraction":0.395270854967117,
+    "tied_pairs":0,
+    "local_auc":0.734716180830574,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.5,
+    "diagnostic":"replacement above boundary",
+    "left_n":216,
+    "right_n":214,
+    "pairs":46224,
+    "inversion_fraction":0.686418310834199,
+    "tied_pairs":0,
+    "local_auc":0.734445670756779,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.6,
+    "diagnostic":"baseline",
+    "left_n":240,
+    "right_n":252,
+    "pairs":60480,
+    "inversion_fraction":0.0,
+    "tied_pairs":0,
+    "local_auc":0.508676808022436,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.6,
+    "diagnostic":"replacement below boundary",
+    "left_n":240,
+    "right_n":252,
+    "pairs":60480,
+    "inversion_fraction":0.4125,
+    "tied_pairs":0,
+    "local_auc":0.753208124415739,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.6,
+    "diagnostic":"replacement above boundary",
+    "left_n":240,
+    "right_n":252,
+    "pairs":60480,
+    "inversion_fraction":0.571924603174603,
+    "tied_pairs":0,
+    "local_auc":0.734001869635421,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.8,
+    "diagnostic":"baseline",
+    "left_n":397,
+    "right_n":0,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.606416112956811,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.8,
+    "diagnostic":"replacement below boundary",
+    "left_n":397,
+    "right_n":0,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.87375415282392,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  },
+  {
+    "boundary":0.8,
+    "diagnostic":"replacement above boundary",
+    "left_n":397,
+    "right_n":0,
+    "pairs":0,
+    "inversion_fraction":null,
+    "tied_pairs":0,
+    "local_auc":0.606416112956811,
+    "scope":"cached rows only; missing outer-boundary pairs are not estimable"
+  }
+]
