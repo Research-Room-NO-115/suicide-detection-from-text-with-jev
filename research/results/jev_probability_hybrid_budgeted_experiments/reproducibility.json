@@ -1,0 +1,129 @@
+{
+  "additional_inference_code_sha256": "c7ef61292c39053ab4b91b77a2f362a5ba899dc04017e1186b64e8d9b7ca16f3",
+  "analysis_code_sha256": "39032470b38e20187741ab955db586ca6c5bec306163fbf732d541d132a10a6d",
+  "analysis_executed_at_utc": "2026-11-16T09:40:46.774873+00:00",
+  "bootstrap_replicates": 4000,
+  "bootstrap_unit": "paired individual text; author IDs unavailable",
+  "dependencies": {
+    "gensim": "4.4.0",
+    "matplotlib": "3.10.8",
+    "nbclient": "0.11.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "xgboost-cpu": "3.4.1"
+  },
+  "frozen_policy_sha256": "420b6425d89cde4a5e6c9f62163df01da8394ba306bb237965fcb1394d331222",
+  "max_new_jev_attempts": 500,
+  "new_paid_attempts": 0,
+  "run_new_jev_inference": false,
+  "scores": "raw risk ratings and bounded fused scores; no population calibration claim",
+  "seed": 42,
+  "source_fingerprints": [
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/predictions.json",
+      "sha256": "9f04d56564020ee5f860528691c869d3fa273d0a481d4d163e08a4c53cfff042"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/routing_manifest.json",
+      "sha256": "5c4738c3a0e8fcde034e1c104ccffc54d59b0711d3de1650ce91739c34ad408f"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/study.json",
+      "sha256": "4e4ea91e98f318da48f458d8875f7548d5ff3d2f0a2785e0a8d5fd2f09ab6971"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/hybrid_report.json",
+      "sha256": "05a2495ba8c7d7dcdb5f261cf68eb54f0041336af238d01051c173d66e77575a"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/execution_audit.json",
+      "sha256": "0cad5d56c8cf033c611962df105956c1e51ec2c95eaaa2d6a01a9bf0f28bbc8f"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/inference_budget.json",
+      "sha256": "25ba71253c70d0c94bccda14bcf5c7b49e2c571fb327e0f5cb5e3ad84ad62faf"
+    },
+    {
+      "available": true,
+      "evidence": "committed public export",
+      "path": "research/results/jev_probability_hybrid/validation_bins.json",
+      "sha256": "4904f55acbd3141d191eec6a07bf6e05c68ecf240e4baa3f3ee9a533bff92b8f"
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "data/Suicide_Detection.csv",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_probability_hybrid/cohort.csv.gz",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_probability_hybrid/budget.sqlite3",
+      "sha256": null
+    },
+    {
+      "available": false,
+      "evidence": "private artifact; availability checked in this checkout",
+      "path": "artifacts/jev_study/baseline",
+      "sha256": null
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "assets/notebooks/jev_probability_hybrid_5000.ipynb",
+      "sha256": "b2ec6bc31d0fa1d325904ecb1941082e33a929f864dd2b077a9b849a2c6f4696"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "assets/notebooks/federated_xgboost_distribution_iid_non_iid_executed.ipynb",
+      "sha256": "0282a48a3ce13d4af8e1e5bf91c0f7602d9ec72678717628dcdd2f27c2853b24"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "jev_research/client.py",
+      "sha256": "2f9885838bb03ba1f0291daaae6611da02f986822560e21dc3aebd55351589cc"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "jev_research/notebook_pipeline.py",
+      "sha256": "92f944d815a8a581245361428a20c7900ea6cce3264b6fec4d675b159203250e"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "research/results/jev_error_study/base_predictions.json",
+      "sha256": "2e47bff2102dbb4f2b39d53820524b83dbdddf8c79fc26604f773ecfdd6a20ca"
+    },
+    {
+      "available": true,
+      "evidence": "committed source / earlier export",
+      "path": "research/results/jev_error_study/selection_manifest.json",
+      "sha256": "4ef1a528145aad1e2408f762cf148b0db061ebb9780d862cb511836b912ddf30"
+    }
+  ],
+  "source_revision": "c70306c934a2c840d1fcd1d2378cbf241ed644b5"
+}

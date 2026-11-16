@@ -1,0 +1,92 @@
+[
+  {
+    "policy":"JEV replacement",
+    "reference":"XGB@0.50",
+    "loss":"brier",
+    "difference":-0.05669077374978,
+    "ci_low":-0.067661126031476,
+    "ci_high":-0.045241219036544,
+    "replicates":2000
+  },
+  {
+    "policy":"JEV replacement",
+    "reference":"XGB@0.50",
+    "loss":"log_loss",
+    "difference":0.0126906996426,
+    "ci_low":-0.059364968284982,
+    "ci_high":0.097765121872571,
+    "replicates":2000
+  },
+  {
+    "policy":"JEV sigmoid",
+    "reference":"JEV replacement",
+    "loss":"brier",
+    "difference":-0.034674452727128,
+    "ci_low":-0.040924389826145,
+    "ci_high":-0.028736521061932,
+    "replicates":2000
+  },
+  {
+    "policy":"JEV sigmoid",
+    "reference":"JEV replacement",
+    "loss":"log_loss",
+    "difference":-0.233623219830959,
+    "ci_low":-0.302180904478306,
+    "ci_high":-0.175834025242196,
+    "replicates":2000
+  },
+  {
+    "policy":"XGB sigmoid",
+    "reference":"XGB@0.50",
+    "loss":"brier",
+    "difference":0.000071868809441,
+    "ci_low":-0.000582639771055,
+    "ci_high":0.000761824029397,
+    "replicates":2000
+  },
+  {
+    "policy":"XGB sigmoid",
+    "reference":"XGB@0.50",
+    "loss":"log_loss",
+    "difference":0.000137842009788,
+    "ci_low":-0.001283192379816,
+    "ci_high":0.001641682078003,
+    "replicates":2000
+  },
+  {
+    "policy":"Logistic fusion",
+    "reference":"XGB@0.50",
+    "loss":"brier",
+    "difference":-0.093236361087574,
+    "ci_low":-0.100047017840618,
+    "ci_high":-0.086192254127375,
+    "replicates":2000
+  },
+  {
+    "policy":"Logistic fusion",
+    "reference":"XGB@0.50",
+    "loss":"log_loss",
+    "difference":-0.225586626967658,
+    "ci_low":-0.244157724816297,
+    "ci_high":-0.204434828269289,
+    "replicates":2000
+  },
+  {
+    "policy":"Logistic fusion",
+    "reference":"JEV sigmoid",
+    "loss":"brier",
+    "difference":-0.001871134610666,
+    "ci_low":-0.003828330564691,
+    "ci_high":0.000144486121739,
+    "replicates":2000
+  },
+  {
+    "policy":"Logistic fusion",
+    "reference":"JEV sigmoid",
+    "loss":"log_loss",
+    "difference":-0.0046541067793,
+    "ci_low":-0.009514358575094,
+    "ci_high":0.000303512858966,
+    "replicates":2000
+  }
+]

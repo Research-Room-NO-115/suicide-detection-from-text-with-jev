@@ -1,0 +1,41 @@
+{
+  "analysis": "Stratum-specific metrics and explicitly oversampled-subset pooled metrics. No full-population estimate from unweighted samples.",
+  "authorization": "Boolean activation AND exact frozen-manifest digest required. Allowance alone never activates dispatch.",
+  "budget_scope": "One persistent ledger for all development/evaluation calls, failures, and interruptions. No alternate prompts/models or retry loops. Do not delete or replace ledger to reset the cap.",
+  "execution": "collect_additional_phase(development) -> freeze_additional_policies -> collect_additional_phase(evaluation) -> analyze_additional",
+  "generator": "jev_research.additional_experiment.prepare_additional_plan",
+  "ledger": "artifacts/jev_probability_hybrid_budgeted_experiments/budget.sqlite3",
+  "manifest_status": "not generated: full sampling frame absent; IDs, population counts, and inclusion probabilities are not invented",
+  "max_new_jev_attempts": 500,
+  "money": "Unknown; no currency amounts invented. If a monetary cap is supplied, also require verified upper-bound price per attempt and currency, or refuse inference. Reservations for failures/interruptions are retained.",
+  "new_paid_attempts": 0,
+  "overlap": "Record selected-manifest overlap and original baseline-population exposure. Remaining old test texts are still exploratory.",
+  "quotas": {
+    "development": {
+      "eligible_negative": 60,
+      "eligible_positive": 20,
+      "near_threshold": 100,
+      "outside_control": 20
+    },
+    "evaluation": {
+      "eligible_negative": 90,
+      "eligible_positive": 30,
+      "near_threshold": 150,
+      "outside_control": 30
+    }
+  },
+  "required_artifacts": [
+    "original validation/test per-row XGBoost scores with row/text/dataset/model hashes",
+    "matching original texts and binary labels for analysis"
+  ],
+  "run_new_jev_inference": false,
+  "sampling": "Hash-ranked within mutually exclusive score strata, no labels/correctness. Exclude all prior probability/error-study selected texts. Fail if quotas unavailable; no automatic expansion.",
+  "seed": 42,
+  "status": "pending_full_baseline_artifacts_and_explicit_activation",
+  "strata": {
+    "eligible_negative": "0.25 <= XGB < 0.40",
+    "eligible_positive": "0.60 <= XGB < 0.80",
+    "near_threshold": "0.40 <= XGB < 0.60",
+    "outside_control": "XGB < 0.25 or XGB >= 0.80"
+  }
+}

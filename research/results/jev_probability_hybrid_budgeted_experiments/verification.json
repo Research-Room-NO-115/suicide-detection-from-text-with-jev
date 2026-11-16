@@ -1,0 +1,10 @@
+{
+  "default_http_blocked": true,
+  "mock_integration_attempts": 500,
+  "new_paid_attempts": 0,
+  "old_artifact_fingerprints_unchanged": true,
+  "optional_additional_outcomes": "pending",
+  "optional_additional_real_attempts": 0,
+  "suite_exit_code": 0,
+  "tests_passed": 101
+}

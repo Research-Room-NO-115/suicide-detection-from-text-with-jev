@@ -1,0 +1,351 @@
+{
+  "development_ids_sha256": "c10957013b81c78d751a227c43957b0792fb96cc4d674325f6be196c5bbcbf5d",
+  "development_n": 2000,
+  "evaluation_ids_sha256": "cb5f83458c5d3cd003c9d9f66f764646ed330f1c6f4a5b05e8cec8fbf0305e33",
+  "evaluation_n": 3000,
+  "interpretation": "Within-study hash split of previously inspected test texts; exploratory, not independent confirmation.",
+  "matched_recall_choices": {
+    "AND:0.9": {
+      "achievable": true,
+      "development_f1": 0.8369384359400999,
+      "development_f2": 0.8786026200873363,
+      "development_fp": 291,
+      "development_precision": 0.7756360832690825,
+      "development_recall": 0.9087624209575429,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.08
+    },
+    "AND:0.95": {
+      "achievable": true,
+      "development_f1": 0.8120933792575583,
+      "development_f2": 0.8940006740815639,
+      "development_fp": 445,
+      "development_precision": 0.704515272244356,
+      "development_recall": 0.9584462511291779,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.03
+    },
+    "JEV replacement:0.9": {
+      "achievable": true,
+      "development_f1": 0.8369384359400999,
+      "development_f2": 0.8786026200873363,
+      "development_fp": 291,
+      "development_precision": 0.7756360832690825,
+      "development_recall": 0.9087624209575429,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.08
+    },
+    "JEV replacement:0.95": {
+      "achievable": true,
+      "development_f1": 0.8120933792575583,
+      "development_f2": 0.8940006740815639,
+      "development_fp": 445,
+      "development_precision": 0.704515272244356,
+      "development_recall": 0.9584462511291779,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.03
+    },
+    "JEV sigmoid:0.9": {
+      "achievable": true,
+      "development_f1": 0.8369384359400999,
+      "development_f2": 0.8786026200873363,
+      "development_fp": 291,
+      "development_precision": 0.7756360832690825,
+      "development_recall": 0.9087624209575429,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.3957324649764526
+    },
+    "JEV sigmoid:0.95": {
+      "achievable": true,
+      "development_f1": 0.8120933792575583,
+      "development_f2": 0.8940006740815639,
+      "development_fp": 445,
+      "development_precision": 0.704515272244356,
+      "development_recall": 0.9584462511291779,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.28885624397232773
+    },
+    "Logistic fusion:0.9": {
+      "achievable": true,
+      "development_f1": 0.847428814279643,
+      "development_f2": 0.8785689108212901,
+      "development_fp": 249,
+      "development_precision": 0.8001605136436597,
+      "development_recall": 0.90063233965673,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.4182218763329388
+    },
+    "Logistic fusion:0.95": {
+      "achievable": true,
+      "development_f1": 0.8267190569744597,
+      "development_f2": 0.8966928060006819,
+      "development_fp": 386,
+      "development_precision": 0.7315716272600834,
+      "development_recall": 0.950316169828365,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.2908799563847539
+    },
+    "Mean 50:50:0.9": {
+      "achievable": true,
+      "development_f1": 0.8236266005782734,
+      "development_f2": 0.8681644026471612,
+      "development_fp": 317,
+      "development_precision": 0.758751902587519,
+      "development_recall": 0.90063233965673,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.3283346939086915
+    },
+    "Mean 50:50:0.95": {
+      "achievable": true,
+      "development_f1": 0.8036599313762867,
+      "development_f2": 0.8866083445491252,
+      "development_fp": 462,
+      "development_precision": 0.6952506596306068,
+      "development_recall": 0.952122854561879,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.257157889008522
+    },
+    "OR:0.9": {
+      "achievable": true,
+      "development_f1": 0.7906423473433782,
+      "development_f2": 0.8531576245079583,
+      "development_fp": 418,
+      "development_precision": 0.7045936395759718,
+      "development_recall": 0.90063233965673,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.49
+    },
+    "OR:0.95": {
+      "achievable": true,
+      "development_f1": 0.7631483496554226,
+      "development_f2": 0.8654162553471537,
+      "development_fp": 598,
+      "development_precision": 0.6375757575757576,
+      "development_recall": 0.950316169828365,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.38
+    },
+    "Weighted (dev):0.9": {
+      "achievable": true,
+      "development_f1": 0.8454391891891891,
+      "development_f2": 0.8797679732817718,
+      "development_fp": 260,
+      "development_precision": 0.7938144329896907,
+      "development_recall": 0.9042457091237579,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.20636527895927423
+    },
+    "Weighted (dev):0.95": {
+      "achievable": true,
+      "development_f1": 0.8170873786407767,
+      "development_f2": 0.8921302578018996,
+      "development_fp": 416,
+      "development_precision": 0.7166212534059946,
+      "development_recall": 0.950316169828365,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.15832391768693926
+    },
+    "XGB sigmoid:0.9": {
+      "achievable": true,
+      "development_f1": 0.7227256252265314,
+      "development_f2": 0.8199013157894737,
+      "development_fp": 655,
+      "development_precision": 0.6035108958837773,
+      "development_recall": 0.90063233965673,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.3695310185349566
+    },
+    "XGB sigmoid:0.95": {
+      "achievable": true,
+      "development_f1": 0.7173542448005455,
+      "development_f2": 0.8410617204988807,
+      "development_fp": 774,
+      "development_precision": 0.5761226725082147,
+      "development_recall": 0.950316169828365,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.3206597531558491
+    },
+    "XGB@0.50:0.9": {
+      "achievable": true,
+      "development_f1": 0.7227256252265314,
+      "development_f2": 0.8199013157894737,
+      "development_fp": 655,
+      "development_precision": 0.6035108958837773,
+      "development_recall": 0.90063233965673,
+      "objective": "minimize FP subject to recall",
+      "target": 0.9,
+      "threshold": 0.342597842216492
+    },
+    "XGB@0.50:0.95": {
+      "achievable": true,
+      "development_f1": 0.7173542448005455,
+      "development_f2": 0.8410617204988807,
+      "development_fp": 774,
+      "development_precision": 0.5761226725082147,
+      "development_recall": 0.950316169828365,
+      "objective": "minimize FP subject to recall",
+      "target": 0.95,
+      "threshold": 0.29331573843956
+    }
+  },
+  "routing_cost_choices": {
+    "1": {
+      "development_loss": 386,
+      "policy": "original/weighted",
+      "specification": {
+        "interval": [
+          0.25,
+          0.8
+        ],
+        "jev_weight": 0.5,
+        "kind": "weighted"
+      }
+    },
+    "10": {
+      "development_loss": 1550,
+      "policy": "below/or",
+      "specification": {
+        "interval": [
+          0.25,
+          0.5
+        ],
+        "kind": "or"
+      }
+    },
+    "5": {
+      "development_loss": 975,
+      "policy": "below/or",
+      "specification": {
+        "interval": [
+          0.25,
+          0.5
+        ],
+        "kind": "or"
+      }
+    }
+  },
+  "seed": 42,
+  "selection": {
+    "weight_trials": [
+      {
+        "development_log_loss": 0.5323954842233934,
+        "jev_weight": 0.25
+      },
+      {
+        "development_log_loss": 0.4717023961672241,
+        "jev_weight": 0.5
+      },
+      {
+        "development_log_loss": 0.451982101380329,
+        "jev_weight": 0.75
+      }
+    ],
+    "xgb_f1_threshold": {
+      "achievable": true,
+      "development_f1": 0.7248373517030233,
+      "development_f2": 0.7979440512301988,
+      "development_fp": 559,
+      "development_precision": 0.6288180610889774,
+      "development_recall": 0.8554652213188798,
+      "objective": "f1",
+      "target": null,
+      "threshold": 0.383297145366669
+    },
+    "xgb_f2_threshold": {
+      "achievable": true,
+      "development_f1": 0.7155785391079509,
+      "development_f2": 0.8628215120810601,
+      "development_fp": 880,
+      "development_precision": 0.5571212883744339,
+      "development_recall": 1.0,
+      "objective": "f2",
+      "target": null,
+      "threshold": 0.252898186445236
+    }
+  },
+  "specifications": {
+    "AND": {
+      "kind": "and"
+    },
+    "JEV replacement": {
+      "kind": "replacement"
+    },
+    "JEV sigmoid": {
+      "C": 1.0,
+      "coefficients": [
+        0.46207114441040137
+      ],
+      "development_training_n": 1999,
+      "intercept": 0.7052594404778517,
+      "kind": "jev_sigmoid"
+    },
+    "Logistic fusion": {
+      "C": 1.0,
+      "coefficients": [
+        0.5364853957752261,
+        0.44117704146671893
+      ],
+      "development_training_n": 1999,
+      "intercept": 0.6032956148867633,
+      "kind": "logistic"
+    },
+    "Mean 50:50": {
+      "jev_weight": 0.5,
+      "kind": "weighted"
+    },
+    "OR": {
+      "kind": "or"
+    },
+    "Weighted (dev)": {
+      "jev_weight": 0.75,
+      "kind": "weighted"
+    },
+    "XGB sigmoid": {
+      "C": 1.0,
+      "coefficients": [
+        0.9513019766321896
+      ],
+      "development_training_n": 2000,
+      "intercept": 0.08577099833279313,
+      "kind": "xgb_sigmoid"
+    },
+    "XGB threshold (dev F1)": {
+      "kind": "xgb"
+    },
+    "XGB threshold (dev F2)": {
+      "kind": "xgb"
+    },
+    "XGB@0.50": {
+      "kind": "xgb"
+    }
+  },
+  "thresholds": {
+    "AND": 0.5,
+    "JEV replacement": 0.5,
+    "JEV sigmoid": 0.5,
+    "Logistic fusion": 0.5,
+    "Mean 50:50": 0.5,
+    "OR": 0.5,
+    "Weighted (dev)": 0.5,
+    "XGB sigmoid": 0.5,
+    "XGB threshold (dev F1)": 0.383297145366669,
+    "XGB threshold (dev F2)": 0.252898186445236,
+    "XGB@0.50": 0.5
+  }
+}

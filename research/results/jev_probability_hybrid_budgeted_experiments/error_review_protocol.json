@@ -1,0 +1,17 @@
+{
+  "claims": "No semantic category counts or independent annotations have been measured.",
+  "examples_per_transition": 8,
+  "fields_to_annotate": [
+    "negation",
+    "quotation_or_hypothetical",
+    "third_person_reference",
+    "past_vs_current_intent",
+    "ambiguous_gold_label",
+    "original_length",
+    "verified_provider_truncation",
+    "brief_redacted_excerpt",
+    "reviewer_id"
+  ],
+  "sampling_seed": 42,
+  "status": "pending_original_text"
+}
