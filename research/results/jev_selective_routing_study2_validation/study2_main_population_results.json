@@ -1,0 +1,47 @@
+[
+  {
+    "policy":"XGBoost tuned",
+    "Study 2 population estimates":"NOT COLLECTED",
+    "fresh_sample_n":null,
+    "false_alarms_per_1000":null,
+    "sensitivity":null,
+    "actual_new_attempts":0,
+    "reason":"source\/reference mapping, transfer terms, raw frame and live credential unavailable"
+  },
+  {
+    "policy":"Selective JEV",
+    "Study 2 population estimates":"NOT COLLECTED",
+    "fresh_sample_n":null,
+    "false_alarms_per_1000":null,
+    "sensitivity":null,
+    "actual_new_attempts":0,
+    "reason":"source\/reference mapping, transfer terms, raw frame and live credential unavailable"
+  },
+  {
+    "policy":"Budget-matched random",
+    "Study 2 population estimates":"NOT COLLECTED",
+    "fresh_sample_n":null,
+    "false_alarms_per_1000":null,
+    "sensitivity":null,
+    "actual_new_attempts":0,
+    "reason":"source\/reference mapping, transfer terms, raw frame and live credential unavailable"
+  },
+  {
+    "policy":"One-sided OR",
+    "Study 2 population estimates":"NOT COLLECTED",
+    "fresh_sample_n":null,
+    "false_alarms_per_1000":null,
+    "sensitivity":null,
+    "actual_new_attempts":0,
+    "reason":"source\/reference mapping, transfer terms, raw frame and live credential unavailable"
+  },
+  {
+    "policy":"Strong local text baseline",
+    "Study 2 population estimates":"NOT COLLECTED",
+    "fresh_sample_n":null,
+    "false_alarms_per_1000":null,
+    "sensitivity":null,
+    "actual_new_attempts":0,
+    "reason":"source\/reference mapping, transfer terms, raw frame and live credential unavailable"
+  }
+]

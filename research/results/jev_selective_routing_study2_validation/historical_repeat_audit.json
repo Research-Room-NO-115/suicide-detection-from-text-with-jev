@@ -1,0 +1,44 @@
+[
+  {
+    "threshold":0.03,
+    "repeated_text_n":21,
+    "different_score_n":11,
+    "different_binary_decision_n":1,
+    "different_binary_decision_rate":0.047619047619048,
+    "wilson95_low":0.008455987809826,
+    "wilson95_high":0.226693600741226,
+    "probability_run_positive_n":16,
+    "error_run_positive_n":17,
+    "probability_positive_error_negative_n":0,
+    "probability_negative_error_positive_n":1,
+    "scope":"21 repeated, error-enriched texts; descriptive, not a population stability estimate"
+  },
+  {
+    "threshold":0.08,
+    "repeated_text_n":21,
+    "different_score_n":11,
+    "different_binary_decision_n":0,
+    "different_binary_decision_rate":0.0,
+    "wilson95_low":0.0,
+    "wilson95_high":0.154639018924847,
+    "probability_run_positive_n":13,
+    "error_run_positive_n":13,
+    "probability_positive_error_negative_n":0,
+    "probability_negative_error_positive_n":0,
+    "scope":"21 repeated, error-enriched texts; descriptive, not a population stability estimate"
+  },
+  {
+    "threshold":0.5,
+    "repeated_text_n":21,
+    "different_score_n":11,
+    "different_binary_decision_n":0,
+    "different_binary_decision_rate":0.0,
+    "wilson95_low":0.0,
+    "wilson95_high":0.154639018924847,
+    "probability_run_positive_n":9,
+    "error_run_positive_n":9,
+    "probability_positive_error_negative_n":0,
+    "probability_negative_error_positive_n":0,
+    "scope":"21 repeated, error-enriched texts; descriptive, not a population stability estimate"
+  }
+]

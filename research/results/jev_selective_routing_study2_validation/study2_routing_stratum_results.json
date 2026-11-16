@@ -1,0 +1,22 @@
+[
+  {
+    "stratum":"outside_low",
+    "Study 2 result":"NOT COLLECTED",
+    "observed_count":null
+  },
+  {
+    "stratum":"inside_below_comparator",
+    "Study 2 result":"NOT COLLECTED",
+    "observed_count":null
+  },
+  {
+    "stratum":"inside_above_comparator",
+    "Study 2 result":"NOT COLLECTED",
+    "observed_count":null
+  },
+  {
+    "stratum":"outside_high",
+    "Study 2 result":"NOT COLLECTED",
+    "observed_count":null
+  }
+]

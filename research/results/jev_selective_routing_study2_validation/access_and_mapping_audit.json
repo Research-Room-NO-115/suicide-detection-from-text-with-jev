@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-11-16T10:21:16.906964+00:00",
+  "owner_source_url": "https://ieeexplore.ieee.org/document/9591887",
+  "mapping_owner_reply": "Owner does not know where a record mapping is held or whether specialists labeled posts or authors.",
+  "source_access": [
+    {
+      "url": "https://ieeexplore.ieee.org/document/9591887",
+      "result": "proxy_CONNECT_403",
+      "retrieved": false
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch",
+      "result": "proxy_CONNECT_403",
+      "retrieved": false
+    },
+    {
+      "url": "https://api.crossref.org/works?query=9591887&rows=3",
+      "result": "proxy_CONNECT_403",
+      "retrieved": false
+    }
+  ],
+  "runtime_bindings": {
+    "METIS_API_KEY": "unset",
+    "SUICIDE_DATA_PATH": "unset"
+  },
+  "environment_draft": {
+    "network_domains_added": [
+      "ieeexplore.ieee.org",
+      "www.kaggle.com",
+      "api.kaggle.com",
+      "api.crossref.org",
+      "doi.org",
+      "api.metisai.ir"
+    ],
+    "secret_requirement": "METIS_API_KEY for api.metisai.ir",
+    "saved": true,
+    "requires_publish": true,
+    "runtime_applied": false
+  },
+  "actual_new_jev_attempts": 0
+}

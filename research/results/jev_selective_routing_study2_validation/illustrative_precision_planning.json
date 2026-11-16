@@ -1,0 +1,146 @@
+[
+  {
+    "planned_common_sample_n":2000,
+    "assumed_design_effect":1.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.713814084693234,
+    "approx_specificity_halfwidth_95_pp":3.801356083373198,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":2000,
+    "assumed_design_effect":1.5,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":2.098985010746708,
+    "approx_specificity_halfwidth_95_pp":4.655691367444542,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":2000,
+    "assumed_design_effect":2.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":2.423699121959203,
+    "approx_specificity_halfwidth_95_pp":5.375929328515847,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":2000,
+    "assumed_design_effect":4.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":3.427628169386467,
+    "approx_specificity_halfwidth_95_pp":7.602712166746397,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":5000,
+    "assumed_design_effect":1.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.083911198741466,
+    "approx_specificity_halfwidth_95_pp":2.404188684159247,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":5000,
+    "assumed_design_effect":1.5,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.32751468170252,
+    "approx_specificity_halfwidth_95_pp":2.94451776078173,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":5000,
+    "assumed_design_effect":2.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.532881917668261,
+    "approx_specificity_halfwidth_95_pp":3.400036243641932,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":5000,
+    "assumed_design_effect":4.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":2.167822397482932,
+    "approx_specificity_halfwidth_95_pp":4.808377368318493,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":8000,
+    "assumed_design_effect":1.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":0.856907042346617,
+    "approx_specificity_halfwidth_95_pp":1.900678041686599,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":8000,
+    "assumed_design_effect":1.5,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.049492505373354,
+    "approx_specificity_halfwidth_95_pp":2.327845683722271,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":8000,
+    "assumed_design_effect":2.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.211849560979602,
+    "approx_specificity_halfwidth_95_pp":2.687964664257923,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":8000,
+    "assumed_design_effect":4.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.713814084693234,
+    "approx_specificity_halfwidth_95_pp":3.801356083373198,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":10000,
+    "assumed_design_effect":1.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":0.76644095883413,
+    "approx_specificity_halfwidth_95_pp":1.700018121820966,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":10000,
+    "assumed_design_effect":1.5,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":0.938694633556553,
+    "approx_specificity_halfwidth_95_pp":2.08208847597299,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":10000,
+    "assumed_design_effect":2.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.083911198741466,
+    "approx_specificity_halfwidth_95_pp":2.404188684159247,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  },
+  {
+    "planned_common_sample_n":10000,
+    "assumed_design_effect":4.0,
+    "assumed_positive_fraction":0.5446,
+    "assumed_positive_disagreement":0.083363936834374,
+    "approx_sensitivity_halfwidth_95_pp":1.532881917668261,
+    "approx_specificity_halfwidth_95_pp":3.400036243641932,
+    "scope":"illustrative routed-population iid approximation; not a fresh full-population power calculation"
+  }
+]

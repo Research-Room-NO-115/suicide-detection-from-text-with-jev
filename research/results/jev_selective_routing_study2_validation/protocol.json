@@ -1,0 +1,96 @@
+{
+  "annotation_unit": "pending primary-source verification; intended model input is one post",
+  "author_rule": "exclude prior authors if identifiers exist; repeated sampled authors require a cluster design before analysis",
+  "budget_ceiling": 10000,
+  "candidate_policy": {
+    "calibration": "none in primary policy; sigmoid/fusion are secondary",
+    "comparator": "threshold-tuned XGBoost",
+    "development": "all 5,000 historical cache rows; supplied labels not verified expert reference",
+    "development_target_recall": 0.95,
+    "endpoint": "https://api.metisai.ir/typesafe/v1/systemone",
+    "fallback": "retain comparator decision at frozen XGBoost threshold",
+    "immutable_provider_revision": null,
+    "jev_threshold": 0.03,
+    "model": "jev-latest",
+    "primary_assisted": "selective replacement",
+    "question": {
+      "criteria": [
+        "0 - No risk indicated",
+        "1 - High risk indicated"
+      ],
+      "instructions": "On a scale of 0 to 1, how likely is it that this text indicates a risk of suicidal intent?",
+      "type": "score"
+    },
+    "question_sha256": "bd49f5423c96794a8ddc18e2a3f8c3c83c694a522890aa894c6ef76b5d653a71",
+    "routing_interval": [
+      0.25,
+      0.8
+    ],
+    "score_parser": "answers.department.score; finite numeric, non-boolean, [0,1]",
+    "status": "conditional_candidate_not_a_frozen_evaluation_protocol",
+    "target_scope": "historical routed score-range only; not a guaranteed global recall target",
+    "truncation": "no client truncation; provider context handling unknown",
+    "xgb_threshold": 0.295507907867432
+  },
+  "created_at_tehran": "2026-11-16T13:59:14.260249+03:30",
+  "created_at_utc": "2026-11-16T10:29:14.260249+00:00",
+  "design_sha256": null,
+  "evaluation_manifest_sha256": null,
+  "gates": {
+    "complete_sampling_frame_verified": false,
+    "expert_record_mapping_verified": false,
+    "external_transfer_terms_permit": false,
+    "frozen_manifest_and_protocol": false,
+    "live_credential_available": false,
+    "primary_source_and_construct_verified": false
+  },
+  "human_review": "separate probability and enriched disagreement samples; blinded descriptive coding; no LLM-generated expert labels",
+  "illustrative_margins_secondary_only": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "inference": "paired stratified bootstrap of weighted contribution totals; finite-frame correction for census strata; expected random-routing outcome at exact population referral fraction; no ordinary McNemar for weighted/random expectations",
+  "ledger": "artifacts/jev_selective_routing_study2_validation/budget.sqlite3",
+  "margin_justification": null,
+  "new_live_attempts": 0,
+  "noninferiority_margin": null,
+  "owner_live_authorization": "Already granted up to 10000 additional attempts; no repeat financial approval needed",
+  "population": "candidate: unqueried original test posts after training/development/history/duplicate exclusions; aggregate test exposure disclosed",
+  "positive_construct": "pending source definition and paper-to-release record mapping; current cache is supplied suicide/non-suicide labels",
+  "primary_effect": "comparator false alarms per 1000 minus selective false alarms per 1000; positive favors assistance",
+  "primary_sensitivity": "assisted minus comparator sensitivity with paired design-appropriate interval; no preservation claim without justified margin",
+  "primary_source": "https://ieeexplore.ieee.org/document/9591887",
+  "protocol_revision": 1,
+  "protocol_schema_version": 1,
+  "question": "Does selective JEV reduce false-positive flags per 1000 posts relative to tuned XGBoost, with an estimated paired sensitivity difference against a verified compatible reference?",
+  "registration": "No public preregistration claimed",
+  "routine_notebooks": "cache-only; separate resumable collection command",
+  "sampling": {
+    "additional_previous_error_test_inside_interval_n": 5,
+    "additional_previous_error_test_n": 19,
+    "allocation": "Historical development; zero planned paid repeats; census residual route if feasible, probability sample both exterior strata. Final n<=10000 selected only after complete frame and design-aware precision review.",
+    "inferred_remaining_eligible_n_before_other_exclusions": 1062,
+    "inferred_remaining_routing_fraction": 0.025699973380441884,
+    "inferred_remaining_test_n_before_other_independence_exclusions": 41323,
+    "known_original_eligible_n": 6067,
+    "known_original_test_n": 46342,
+    "n_status": "no final quota or sample size frozen while outside-stratum disagreements/frame are unknown",
+    "outside_score_regions": "No JEV evidence. Random-routing contrast uncertainty outside coverage cannot be estimated from cached inside-range outcomes.",
+    "previous_probability_cohort_n": 5000,
+    "repeated_author_effect": "Design-effect scenarios illustrate loss of precision; not measured intraclass correlation.",
+    "unused_authorization": 10000,
+    "warning": "Excluding the historical cache changes the population route fraction drastically. These aggregate counts do not supply row IDs, labels or final author/near-duplicate exclusions."
+  },
+  "secondary": [
+    "budget-matched random referral using identical JEV cutoff/fallback",
+    "one-sided OR",
+    "local word/character TF-IDF logistic baseline if raw training/development texts available",
+    "sigmoid calibration and fusion as supplementary only"
+  ],
+  "seed": 42,
+  "source_revision": "fcc028ee2951c2fc0b2ad8f2e9f8947f783babe8",
+  "status": "DATED_INTERNAL_DESIGN_DRAFT_NOT_FROZEN_FOR_COLLECTION",
+  "study2_results": "NOT COLLECTED",
+  "study_id": "jev_selective_routing_study2_validation"
+}

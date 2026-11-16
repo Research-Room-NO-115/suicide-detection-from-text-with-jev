@@ -1,0 +1,16 @@
+{
+  "additional_previous_error_test_inside_interval_n": 5,
+  "additional_previous_error_test_n": 19,
+  "allocation": "Historical development; zero planned paid repeats; census residual route if feasible, probability sample both exterior strata. Final n<=10000 selected only after complete frame and design-aware precision review.",
+  "inferred_remaining_eligible_n_before_other_exclusions": 1062,
+  "inferred_remaining_routing_fraction": 0.025699973380441884,
+  "inferred_remaining_test_n_before_other_independence_exclusions": 41323,
+  "known_original_eligible_n": 6067,
+  "known_original_test_n": 46342,
+  "n_status": "no final quota or sample size frozen while outside-stratum disagreements/frame are unknown",
+  "outside_score_regions": "No JEV evidence. Random-routing contrast uncertainty outside coverage cannot be estimated from cached inside-range outcomes.",
+  "previous_probability_cohort_n": 5000,
+  "repeated_author_effect": "Design-effect scenarios illustrate loss of precision; not measured intraclass correlation.",
+  "unused_authorization": 10000,
+  "warning": "Excluding the historical cache changes the population route fraction drastically. These aggregate counts do not supply row IDs, labels or final author/near-duplicate exclusions."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "policy":"XGBoost",
+    "development_target_recall":0.9,
+    "n":3000,
+    "recall":0.88799504950495,
+    "precision":0.586912065439673,
+    "fn":181,
+    "fp":1010,
+    "prospective_requests":0
+  },
+  {
+    "policy":"JEV replacement",
+    "development_target_recall":0.9,
+    "n":3000,
+    "recall":0.88799504950495,
+    "precision":0.777777777777778,
+    "fn":181,
+    "fp":410,
+    "prospective_requests":3000
+  },
+  {
+    "policy":"XGBoost",
+    "development_target_recall":0.95,
+    "n":3000,
+    "recall":0.954207920792079,
+    "precision":0.563802559414991,
+    "fn":74,
+    "fp":1193,
+    "prospective_requests":0
+  },
+  {
+    "policy":"JEV replacement",
+    "development_target_recall":0.95,
+    "n":3000,
+    "recall":0.96039603960396,
+    "precision":0.712907671107028,
+    "fn":64,
+    "fp":625,
+    "prospective_requests":3000
+  }
+]

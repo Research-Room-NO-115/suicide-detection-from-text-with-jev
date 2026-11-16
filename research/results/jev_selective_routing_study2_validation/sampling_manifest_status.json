@@ -1,0 +1,17 @@
+{
+  "forbidden_selection_fields": [
+    "evaluation labels",
+    "observed correctness",
+    "evaluation JEV scores"
+  ],
+  "manifest_sha256": null,
+  "new_evaluation_outcomes_opened": false,
+  "records": null,
+  "selection_fields": [
+    "stable IDs",
+    "baseline scores",
+    "permitted metadata"
+  ],
+  "status": "pending complete frame and source verification",
+  "version": 1
+}

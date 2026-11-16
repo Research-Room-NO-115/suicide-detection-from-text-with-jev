@@ -1,0 +1,77 @@
+[
+  {
+    "provenance_item":"Citation \/ DOI",
+    "finding":"https:\/\/ieeexplore.ieee.org\/document\/9591887",
+    "evidence_and_limit":"IEEE article title, authors and DOI not retrieved; owner supplied document URL"
+  },
+  {
+    "provenance_item":"Release",
+    "finding":"Kaggle nikhileswarkomati\/suicide-watch version 14",
+    "evidence_and_limit":"Repository README and saved dataset fingerprint; primary release documentation blocked"
+  },
+  {
+    "provenance_item":"Dataset checksum",
+    "finding":"1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+    "evidence_and_limit":"Saved provenance only; original CSV absent"
+  },
+  {
+    "provenance_item":"Language \/ platform \/ period",
+    "finding":"Not independently verified from primary source",
+    "evidence_and_limit":"Pipeline assumes English; no source collection-period documentation supplied"
+  },
+  {
+    "provenance_item":"Sampling \/ access \/ license",
+    "finding":"Not verified",
+    "evidence_and_limit":"Kaggle\/IEEE access blocked; do not infer a license from public discoverability"
+  },
+  {
+    "provenance_item":"Annotation unit \/ rater context",
+    "finding":"Unknown: posts versus authors or post collections unresolved",
+    "evidence_and_limit":"Owner does not know the mapping or rating unit"
+  },
+  {
+    "provenance_item":"Construct \/ operational definition",
+    "finding":"Supplied binary suicide\/non-suicide labels only",
+    "evidence_and_limit":"Expert risk, expressed intent, ideation and future suicide outcomes are not interchangeable"
+  },
+  {
+    "provenance_item":"Qualifications \/ raters per item",
+    "finding":"Not reported in available project artifacts",
+    "evidence_and_limit":"Primary paper unread; absence from exports does not establish absence from the source study"
+  },
+  {
+    "provenance_item":"Instructions \/ adjudication \/ agreement",
+    "finding":"Not ascertainable",
+    "evidence_and_limit":"No primary annotation protocol or supplementary material retrieved"
+  },
+  {
+    "provenance_item":"Coverage of specialist labels",
+    "finding":"Unverified",
+    "evidence_and_limit":"Cannot establish entire release, a subset or a different version"
+  },
+  {
+    "provenance_item":"Paper-to-CSV record linkage",
+    "finding":"Matched and unmatched counts NOT ESTIMABLE",
+    "evidence_and_limit":"No source record IDs, mapping table or source records supplied; not zero confirmed matches"
+  },
+  {
+    "provenance_item":"Repository transformations",
+    "finding":"Binary mapping; normalized raw deduplication\/conflict removal; stratified splits; cleaned deduplication with training priority",
+    "evidence_and_limit":"Source code audited; raw CSV and original full split caches absent"
+  },
+  {
+    "provenance_item":"Context mismatch",
+    "finding":"Not assessable",
+    "evidence_and_limit":"If author-level labels are inherited by posts, a post classifier has a different target; this possibility is unresolved"
+  },
+  {
+    "provenance_item":"Ethics \/ consent \/ current review",
+    "finding":"Not verified for source study or current study",
+    "evidence_and_limit":"Source and current-study approvals must be documented separately"
+  },
+  {
+    "provenance_item":"External JEV transfer",
+    "finding":"Permission not established from data terms",
+    "evidence_and_limit":"No live transfer until compatible source terms and target are documented"
+  }
+]

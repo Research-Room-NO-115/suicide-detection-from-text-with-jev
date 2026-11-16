@@ -1,0 +1,11 @@
+{
+  "blinding": "Forms exclude model identity, labels, scores and transition categories; private key is ignored by Git",
+  "coding": "two independent qualified reviewers, blinded coding, adjudication after independent forms; Cohen kappa for nominal codes and weighted kappa for justified ordinal codes; report agreement denominators and uncertain cases",
+  "enriched_n": 40,
+  "new_expert_labels_created": 0,
+  "overlap_between_samples_n": 0,
+  "paper_grounding": "pending primary paper; proposed linguistic fields are provisional, not verified source definitions",
+  "probability_n": 100,
+  "probability_scope": "historical 5000-case cache only",
+  "status": "pending source construct, matching text and qualified reviewers"
+}
