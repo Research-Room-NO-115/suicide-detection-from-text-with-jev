@@ -1,0 +1,16 @@
+[
+  {
+    "metric":"recall_difference",
+    "estimate":0.011506724687134,
+    "ci_low":0.002509605098995,
+    "ci_high":0.021369263959696,
+    "scope":"3,000 reused cache rows; random pool restricted to observed comparator negatives"
+  },
+  {
+    "metric":"additional_false_alarms_per_1000",
+    "estimate":1.32325084020776,
+    "ci_low":-1.457684081882065,
+    "ci_high":4.246952337305226,
+    "scope":"3,000 reused cache rows; random pool restricted to observed comparator negatives"
+  }
+]

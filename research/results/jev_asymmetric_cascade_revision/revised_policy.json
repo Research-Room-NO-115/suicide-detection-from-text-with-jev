@@ -1,0 +1,27 @@
+{
+  "architecture": "asymmetric_or",
+  "calibrated_jev_cutoff": 0.4,
+  "calibration_fit_rows": 707,
+  "calibration_folds": 5,
+  "calibration_intercept": 0.33540218574887765,
+  "calibration_logit_clip": 1e-06,
+  "calibration_slope": 0.4802153115942649,
+  "endpoint": "https://api.metisai.ir/typesafe/v1/systemone",
+  "fallback": "retain tuned Word2Vec\u2013XGBoost decision",
+  "model": "jev-latest",
+  "question": {
+    "criteria": [
+      "0 - No risk indicated",
+      "1 - High risk indicated"
+    ],
+    "instructions": "On a scale of 0 to 1, how likely is it that this text indicates a risk of suicidal intent?",
+    "type": "score"
+  },
+  "question_sha256": "bd49f5423c96794a8ddc18e2a3f8c3c83c694a522890aa894c6ef76b5d653a71",
+  "routing_interval": [
+    0.4,
+    0.45
+  ],
+  "selection_metric": "positive development F2 gain per prospective request; requires >=100 referrals",
+  "xgb_threshold": 0.45
+}

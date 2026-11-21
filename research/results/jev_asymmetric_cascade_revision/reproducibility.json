@@ -1,0 +1,26 @@
+{
+  "affiliation": null,
+  "analysis_code": {
+    "cascade_report.py": "1a45f8c650b99f351521b6e646a1d0cdc7b148d02f55a2c84a99102b6c428fee",
+    "cascade_revision.py": "05b5852287ff6cf439500eb66eae522880a4ad22d841e9b379c4d9f8ffaa307b",
+    "cascade_validation.py": "0c90e6bc8a1c971749a3532de22ad2e86bf999d2c52c6cfc2ece2deff628df47"
+  },
+  "baseline_fingerprint": "b154407429c3f6d7dd39f87006eb4dd9305d283146ccf27546d57f0d27fa7fd2",
+  "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+  "inputs": {
+    "research/results/jev_error_study/selection_manifest.json": "4ef1a528145aad1e2408f762cf148b0db061ebb9780d862cb511836b912ddf30",
+    "research/results/jev_error_study/xgboost_baseline.json": "8e9cc76752b5b9a9a84709a3387e98c263d3bbec32e23c491e1fc72871cffa20",
+    "research/results/jev_probability_hybrid/execution_audit.json": "0cad5d56c8cf033c611962df105956c1e51ec2c95eaaa2d6a01a9bf0f28bbc8f",
+    "research/results/jev_probability_hybrid/hybrid_report.json": "05a2495ba8c7d7dcdb5f261cf68eb54f0041336af238d01051c173d66e77575a",
+    "research/results/jev_probability_hybrid/predictions.json": "9f04d56564020ee5f860528691c869d3fa273d0a481d4d163e08a4c53cfff042",
+    "research/results/jev_probability_hybrid/study.json": "4e4ea91e98f318da48f458d8875f7548d5ff3d2f0a2785e0a8d5fd2f09ab6971",
+    "research/results/jev_probability_hybrid/validation_bins.json": "4904f55acbd3141d191eec6a07bf6e05c68ecf240e4baa3f3ee9a533bff92b8f"
+  },
+  "policy_sha256": "d15e804e6bc34b0c402ae68cee1344ffad3d502b3bc153e2f971ccfafcf93793",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  }
+}

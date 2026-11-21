@@ -6,6 +6,17 @@ an earlier **100-error study**. The hybrid selects texts by probability alone
 and measures corrections as well as newly introduced errors. All code,
 notebooks, and reports are in English.
 
+## Current supervisor revision
+
+The primary candidate now preserves the positive decisions of Word2Vec–XGBoost
+at the original-validation cutoff of **0.45**. It refers comparator negatives
+in **[0.40, 0.45)** and can add positive flags. The executed
+[revision notebook](assets/notebooks/jev_asymmetric_cascade_revision.ipynb) and
+[manuscript PDF](research/results/jev_asymmetric_cascade_revision/manuscript_report.pdf)
+give the exploratory replay, equal-budget random comparison, and paired
+statistics. The [protocol](research/asymmetric_cascade_protocol.md) documents
+the frozen residual evaluation workflow and remaining source evidence.
+
 ## Cached policy comparisons and a budgeted follow-up
 
 The [new executed notebook](assets/notebooks/jev_probability_hybrid_budgeted_experiments.ipynb)

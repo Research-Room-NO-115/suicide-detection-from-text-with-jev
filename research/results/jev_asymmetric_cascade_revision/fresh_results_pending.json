@@ -1,0 +1,17 @@
+[
+  {
+    "stratum":"uncertain_negative",
+    "n":null,
+    "status":"fresh sample not frozen"
+  },
+  {
+    "stratum":"other_negative",
+    "n":null,
+    "status":"fresh sample not frozen"
+  },
+  {
+    "stratum":"comparator_positive",
+    "n":null,
+    "status":"fresh sample not frozen"
+  }
+]

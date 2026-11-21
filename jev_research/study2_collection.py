@@ -82,9 +82,9 @@ def write_frozen_package(directory,protocol,manifest,design):
     if manifest_hash(manifest)!=protocol.get('evaluation_manifest_sha256') or digest(design)!=protocol.get('design_sha256'):
         raise ValueError('Package does not match its frozen protocol.')
     directory=Path(directory);directory.mkdir(parents=True,exist_ok=True)
-    save_json(directory/'protocol.json',protocol)
     save_json(directory/'manifest.json',manifest.to_dict('records'))
     save_json(directory/'design.json',design)
+    save_json(directory/'protocol.json',protocol)
 
 
 class Study2JevClient(AdditionalJevClient):
@@ -95,15 +95,19 @@ class Study2JevClient(AdditionalJevClient):
     def __init__(self,ledger_path,cohort,*,protocol,run_new_inference=False,max_attempts=ATTEMPT_CEILING,session=None,**money):
         if protocol.get('status')!='FROZEN_INTERNAL_PROTOCOL':
             raise CohortMismatch('Study 2 protocol is a draft; no evaluation dispatch is permitted.')
-        required=['primary_source_and_construct_verified','expert_record_mapping_verified','external_transfer_terms_permit',
+        candidate=protocol.get('candidate_policy',{})
+        asymmetric = candidate.get('architecture') == 'asymmetric_or'
+        reference_gate = 'dataset_label_provenance_verified' if asymmetric else 'expert_record_mapping_verified'
+        required=['primary_source_and_construct_verified',reference_gate,'external_transfer_terms_permit',
                   'complete_sampling_frame_verified','frozen_manifest_and_protocol']
         if not all(protocol.get('gates',{}).get(k) is True for k in required):
             raise CohortMismatch('Scientific/data prerequisites remain unresolved; no paid request permitted.')
         if protocol.get('evaluation_manifest_sha256')!=manifest_hash(pd.DataFrame(cohort)):
             raise CohortMismatch('Manifest differs from the frozen Study 2 protocol.')
-        candidate=protocol.get('candidate_policy',{})
         if candidate.get('model')!=BASE_MODEL or candidate.get('question_sha256')!=digest(QUESTION):
             raise CohortMismatch('Frozen prompt/model differs from the supported transport.')
+        if asymmetric and not pd.DataFrame(cohort).p_xgb.lt(candidate['xgb_threshold']).all():
+            raise CohortMismatch('Asymmetric collection permits comparator-negative records only.')
         self.protocol=protocol;self.protocol_sha256=digest(protocol)
         super().__init__(ledger_path,cohort,run_new_inference=run_new_inference,
                          authorized_manifest_sha256=protocol['evaluation_manifest_sha256'],
