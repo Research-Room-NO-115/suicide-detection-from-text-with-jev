@@ -1,0 +1,13 @@
+{
+  "ci_high": 0.22902263627865463,
+  "ci_low": 0.18876570144240076,
+  "comparison_roc_auc": 0.8910508802867281,
+  "delta_auc": 0.2088941688605277,
+  "n": 3000,
+  "negatives": 1384,
+  "p_value": 5.6241461755155675e-92,
+  "positives": 1616,
+  "scope": "exploratory; row independence assumed, author clusters unavailable",
+  "standard_error": 0.01026981494399781,
+  "xgb_roc_auc": 0.6821567114262004
+}

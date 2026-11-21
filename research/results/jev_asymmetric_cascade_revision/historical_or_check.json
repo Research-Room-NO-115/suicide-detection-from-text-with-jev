@@ -1,0 +1,12 @@
+{
+  "added_false_alarms": 96,
+  "full_frame_baseline_recall": 0.9208949433116351,
+  "full_frame_n": 46342,
+  "full_frame_replayed_recall": 0.9440875975341639,
+  "n": 5000,
+  "new_missed_positives": 0,
+  "recovered_positives": 538,
+  "referrals": 2184,
+  "selected_false_alarms": 1049,
+  "selected_misses": 322
+}

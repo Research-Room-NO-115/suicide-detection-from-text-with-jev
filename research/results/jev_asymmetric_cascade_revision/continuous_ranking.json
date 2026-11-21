@@ -1,0 +1,16 @@
+[
+  {
+    "model":"Word2Vec\u2013XGBoost",
+    "n":3000,
+    "roc_auc":0.6821567114262,
+    "average_precision":0.704958226177819,
+    "pr_auc_trapezoidal":0.704713707348332
+  },
+  {
+    "model":"Historical Metis score replacement",
+    "n":3000,
+    "roc_auc":0.891050880286728,
+    "average_precision":0.890142588449729,
+    "pr_auc_trapezoidal":0.897315555236492
+  }
+]

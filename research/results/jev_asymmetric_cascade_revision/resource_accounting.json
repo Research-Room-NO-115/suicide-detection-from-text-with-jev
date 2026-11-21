@@ -1,0 +1,19 @@
+{
+  "archive_test_n": 46342,
+  "archived_fit_seconds": 279.1956041839999,
+  "archived_prepared_prediction_seconds_per_1000": 0.00289507179232347,
+  "archived_prepared_timing_scope": "Word2Vec embedding and XGBoost score prediction for pre-tokenized batch",
+  "archived_test_prediction_seconds": 0.13416341699985423,
+  "archived_xgb_cpu_threads": 1,
+  "historical_jev_active_batch_seconds_per_1000_attempts": 200.3352466,
+  "historical_jev_active_phase_wall_seconds": 1001.676233,
+  "historical_jev_calendar_wall_seconds": 1283.975641,
+  "hypothetical_all_referral_requests_per_1000": 1000,
+  "measured_local_end_to_end_inference": null,
+  "measured_local_peak_rss_mib": null,
+  "observed_provider_input_tokens": null,
+  "observed_provider_output_tokens": null,
+  "revised_cached_api_attempt_reduction_pct": 92.03333333333333,
+  "revised_cached_cascade_requests_per_1000": 79.66666666666667,
+  "verified_currency_per_1000_estimate": null
+}

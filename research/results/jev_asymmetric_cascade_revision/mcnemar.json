@@ -1,0 +1,50 @@
+[
+  {
+    "comparison":"Asymmetric cascade vs Word2Vec\u2013XGBoost",
+    "endpoint":"all: correct classifications",
+    "n":3000,
+    "corrected":83,
+    "new_errors":25,
+    "mcnemar_exact_p":0.000000018829338
+  },
+  {
+    "comparison":"Asymmetric cascade vs Word2Vec\u2013XGBoost",
+    "endpoint":"positive: sensitivity",
+    "n":1616,
+    "corrected":83,
+    "new_errors":0,
+    "mcnemar_exact_p":2.06795153138257e-25
+  },
+  {
+    "comparison":"Asymmetric cascade vs Word2Vec\u2013XGBoost",
+    "endpoint":"negative: specificity",
+    "n":1384,
+    "corrected":0,
+    "new_errors":25,
+    "mcnemar_exact_p":0.000000059604645
+  },
+  {
+    "comparison":"Historical score replacement at 0.50",
+    "endpoint":"all: correct classifications",
+    "n":3000,
+    "corrected":811,
+    "new_errors":367,
+    "mcnemar_exact_p":5.10577614409751e-39
+  },
+  {
+    "comparison":"Historical score replacement at 0.50",
+    "endpoint":"positive: sensitivity",
+    "n":1616,
+    "corrected":310,
+    "new_errors":312,
+    "mcnemar_exact_p":0.968020599828054
+  },
+  {
+    "comparison":"Historical score replacement at 0.50",
+    "endpoint":"negative: specificity",
+    "n":1384,
+    "corrected":501,
+    "new_errors":55,
+    "mcnemar_exact_p":4.51060362504638e-91
+  }
+]

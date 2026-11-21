@@ -1,0 +1,10 @@
+{
+  "additional_prior_test_inside_old_interval_n": 5,
+  "additional_prior_test_n": 19,
+  "old_interval_n": 6067,
+  "original_test_n": 46342,
+  "potential_old_interval_n": 1062,
+  "potential_test_n": 41323,
+  "revised_route_n": null,
+  "unqueried_in_old_interval_before_other_history": 1067
+}
