@@ -6,6 +6,9 @@ an earlier **100-error study**. The hybrid selects texts by probability alone
 and measures corrections as well as newly introduced errors. All code,
 notebooks, and reports are in English.
 
+The [project roadmap](ROADMAP.md) traces the research milestones and commits,
+with links to the evidence and the next evaluation step.
+
 ## Current supervisor revision
 
 The primary candidate now preserves the positive decisions of Word2Vec–XGBoost
